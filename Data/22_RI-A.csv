@@ -1,0 +1,131 @@
+Condition,ID,Time,Speaker,Utterance,Question Form,Question Type
+RI-A,22,24,C,intro message ,,
+RI-A,22,32,P,Okay,Statement,
+RI-A,22,47,P,Where do I start?,WHQ,Query: Goal-Related
+RI-A,22,56,C,"The sonic optimizer goes in the secondary cabinet, shelf A",,
+RI-A,22,102,P,How do I open the cabinet?,WHQ,Query: Request Teaching: General
+RI-A,22,116,C,"To open a locker, use the nearby panel. Insert the bypass and flip the switch to the On position",,
+RI-A,22,170,P,what is the bypass?,WHQ,Query: Request Teaching: General
+RI-A,22,179,C,The bypass is a small block that should be near the lockers. It goes in the panel,,
+RI-A,22,304,C,Can I answer any questions for you?,,
+RI-A,22,307,P,Okay I put the bypass on the panel.,Statement,
+RI-A,22,311,P,what?,,
+RI-A,22,318,P,now what?,WHQ,Query: Goal-Related
+RI-A,22,327,C,let me know which locker you'd like to open,,
+RI-A,22,342,P,The grey one in the middle,Statement,
+RI-A,22,348,C,"To open locker Y, move the nozzle to gray and press the gray button",,
+RI-A,22,430,P,Okay now I have a hose like object,Statement,
+RI-A,22,456,C,One of those objects is needed but I'm not sure if you have the right one,,
+RI-A,22,469,P,how do we find out,WHQ,Query: Request Teaching: General
+RI-A,22,478,C,please ask me questions to clarify,,
+RI-A,22,510,P,It is a black hose that is bent like an S,Statement,
+RI-A,22,528,C,"there are three of those objects, each fitting that description",,
+RI-A,22,560,P,The ends look like a greenish color,Statement,
+RI-A,22,582,C,The one you need has white ends,,
+RI-A,22,657,P,I don't see any with white ends anywhere,Statement,
+RI-A,22,667,C,"If you don't see it, it may be locked in one of the container",,
+RI-A,22,692,P,how do I open them,WHQ,Query: Request Teaching: General
+RI-A,22,711,C,which container?,,
+RI-A,22,719,P,the circle first,Statement,
+RI-A,22,723,C,"To open a crate, put in the access code on the nearby keypad",,
+RI-A,22,727,C,The code for crate 2 is 5678,,
+RI-A,22,782,P,Okay that didn't have the hose. How about crate traingle?,Statement,
+RI-A,22,787,C,The code for crate 3 is 2580,,
+RI-A,22,817,P,Okay I have the hose I need,Statement,
+RI-A,22,827,P,where does it go,WHQ,Query: Location-Related
+RI-A,22,830,C,"The mechano calibrator goes in locker Y, bottom shelf",,
+RI-A,22,946,P,whats my next move?,WHQ,Query: Goal-Related
+RI-A,22,961.0838,C,"The tesla capacitor goes in the secondary cabinet, shelf B",,
+RI-A,22,981.4316,P,what color is the secondary cabinet?,WHQ,Query: Object Description: Color
+RI-A,22,992.0402,C,it is brown with brown doors,,
+RI-A,22,1024.492,P,how do I open it?,WHQ,Query: Request Teaching: General
+RI-A,22,1040.088,C,"To open the secondary cabinet, simply click on the door you'd like to open ",,
+RI-A,22,1071.352,P,okay and what does a tesla capacitator look like,Statement,
+RI-A,22,1081.452,C,Capacitors are cylinder-shaped storage containers.,,
+RI-A,22,1124.032,P,what color?,WHQ,Query: Object Description: Color
+RI-A,22,1129.9,C,it is green,,
+RI-A,22,1163.272,P,does it have a screen?,YNQ,Confirm Object by Feature: Other
+RI-A,22,1171.859,C,"no, capacitors don't have screens",,
+RI-A,22,1223.252,P,How do I open the big grey cabinets with red boxes beneath them,WHQ,Query: Request Teaching: General
+RI-A,22,1229.163,C,"To open the primary cabinet, arrange the keycards in the right order on the panel. There is a different order depending on which side you would like to open. ",,
+RI-A,22,1249.072,P,the left side,Statement,
+RI-A,22,1259.306,C,"The keycard order for the left cabinet door is: red, blue, brown. Then press the red button. ",,
+RI-A,22,1289.012,P,okay the tesla isn't there. ,Statement,
+RI-A,22,1303.492,P,okay the tesla is there.  ,Statement,
+RI-A,22,1313.891,C,great,,
+RI-A,22,1319.092,P,okay the tesla is there.  ,Statement,
+RI-A,22,1379.372,P,Okay the tesla is where it belongs I think.,Statement,
+RI-A,22,1391.756,C,"great, you're almost done",,
+RI-A,22,1421.412,P,what is next? does something go in the yellow cabinet?,WHQ,Query: Goal-Related
+RI-A,22,1431.398,C,nothing goes in locker x,,
+RI-A,22,1436.2,C,"The sonic optimizer goes in the secondary cabinet, shelf A ",,
+RI-A,22,1438.792,P,okay,Statement,
+RI-A,22,1469.732,P,what does the sonic optimizer look like,WHQ,Query: Object Description: General
+RI-A,22,1479.634,C,Optimizers are motion trackers with a trigger and a keypad. There are 3 of them.,,
+RI-A,22,1504.472,P,what color is the sonic,WHQ,Query: Object Description: Color
+RI-A,22,1514.045,C,all optimizers are the same color - brown,,
+RI-A,22,1532.412,P,does it have spots all over it?,YNQ,Confirm Object by Feature: Pattern
+RI-A,22,1547.142,C,"no, it is striped",,
+RI-A,22,1554.752,P,okay got it,Statement,
+RI-A,22,1562.068,C,great,,
+RI-A,22,1603.952,P,It says the ,,
+RI-A,22,1618.292,P,what is the ,,
+RI-A,22,1628.712,P,what is the secondary cabinet?,WHQ,Query: Object Identification
+RI-A,22,1638.089,C,it is the cabinet with brown doors,,
+RI-A,22,1688.572,P,okay I think that is where it belongs. all set,Statement,
+RI-A,22,1691.536,C,great,,
+RI-A,22,1724.952,P,what should i do next?,WHQ,Query: Goal-Related
+RI-A,22,1733.524,C,Move to the primary cabinet,,
+RI-A,22,1753.472,P,okay I'm there,Statement,
+RI-A,22,1754.642,C,Pick up the temporal emitter from shelf C,,
+RI-A,22,1769.412,P,what does it look like,WHQ,Query: Object Description: General
+RI-A,22,1784.496,C,Emitters are storage blocks with a pattern on the front. There are 3 of them.,,
+RI-A,22,1806.332,P,How do I open the right cabinet?,WHQ,Query: Request Teaching: Target
+RI-A,22,1820.613,C,"The keycard order for the right cabinet door is: blue, brown, gray. Then press the red button. ",,
+RI-A,22,1862.932,P,is the temporal emitter big or small,AQ,Confirm Object by Feature: Size
+RI-A,22,1875.406,C,it is small,,
+RI-A,22,1888.292,P,okay I have it where does it go?,Statement,
+RI-A,22,1894.914,C,Move to the secondary cabinet,,
+RI-A,22,1914.132,P,okay I'm there,Statement,
+RI-A,22,1914.754,C,Place the temporal emitter on shelf D,,
+RI-A,22,1931.732,P,is shelf D to the right or left?,AQ,Confirm Object by Location: Spatial
+RI-A,22,1936.855,C,its the bottom right one,,
+RI-A,22,2005.69,C,got it?,,
+RI-A,22,2017.412,P,yes,Statement,
+RI-A,22,2023.727,C,ok almost done,,
+RI-A,22,2025.392,P,all set,Statement,
+RI-A,22,2035.012,P,what is next?,WHQ,Query: Goal-Related
+RI-A,22,2044.948,C,Move to the Alpha platform,,
+RI-A,22,2057.072,P,what does that look like?,WHQ,Query: Object Description: General
+RI-A,22,2068.064,C,it is the rightmost platform in a set of 3,,
+RI-A,22,2099.511,P,does it have an object? with a screen?,YNQ,Confirm Object by Feature: Other
+RI-A,22,2108.572,C,no,,
+RI-A,22,2136.632,P,is it next to a cabinet?,YNQ,Confirm Object by Location: Landmark
+RI-A,22,2141.469,C,yes,,
+RI-A,22,2147.112,P,okay,Statement,
+RI-A,22,2162.787,C,Pick up the megaband module,,
+RI-A,22,2167.592,P,has a striped object?,YNQ,"Confirm Object by Feature: Pattern, Other"
+RI-A,22,2170.716,C,yes,,
+RI-A,22,2193.378,C,Move to locker Z,,
+RI-A,22,2223.692,P,what color is locker z,WHQ,Query: Object Description: Color
+RI-A,22,2236.085,C,red,,
+RI-A,22,2297.271,P,okay done,Statement,
+RI-A,22,2303.721,C,ok great,,
+RI-A,22,2312.021,C,one more to go,,
+RI-A,22,2321.031,P,okay I'm ready,Statement,
+RI-A,22,2331.674,C,Move to the Delta platform ,,
+RI-A,22,2342.172,P,What does that look like,WHQ,Query: Object Description
+RI-A,22,2350.166,C,it's the middle one in a set of 3,,
+RI-A,22,2364.572,P,does it have a blue object?,YNQ,"Confirm Object by Feature: Color, Other"
+RI-A,22,2369.123,C,yes,,
+RI-A,22,2375.146,C,Pick up the optimized synthesizer,,
+RI-A,22,2400.132,P,got it,Statement,
+RI-A,22,2402.343,C,Move to the primary cabinet,,
+RI-A,22,2432.052,P,is that thebrown cabinet or grey?,AQ,Confirm Object by Feature: Color
+RI-A,22,2435.355,C,grey one,,
+RI-A,22,2446.412,P,okay. there,Statement,
+RI-A,22,2448.987,C,Place the optimized synthesizer on shelf B,,
+RI-A,22,2471.572,P,is that an upper or lower shelf?,AQ,Confirm Object by Location: Spatial
+RI-A,22,2477.987,C,top right shelf,,
+RI-A,22,2485.711,P,okay done,Statement,
+RI-A,22,2488.442,C,"great, you are finished",,

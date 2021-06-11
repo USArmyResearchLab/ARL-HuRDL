@@ -1,0 +1,106 @@
+Condition,ID,Time,Speaker,Utterance,Question Form,Question Type
+CI-B,5,6.22,P,Hi ,,
+CI-B,5,12.60,C,"You'll need to locate and place 6 different objects away, I can help you by answering any questions you might have. Let's begin. ",,
+CI-B,5,29.28,P,ok ,,
+CI-B,5,34.73,C,"The megaband module goes in locker Z, top shelf ",,
+CI-B,5,87.78,C,Can I help answer any questions for you? ,,
+CI-B,5,104.50,P,which one is the megaband module ,WHQ,Query: Object Identification
+CI-B,5,121.81,C,Modules are scanning tools with a trigger and glowing lines in the front. There are 3 of them.,,
+CI-B,5,165.22,P,Which one is the megaband,WHQ,Query: Object Identification
+CI-B,5,188.94,C,The megaband module has a square symbol on it when you pick it up ,,
+CI-B,5,232.58,P,which locker is z ,WHQ,Query: Object Identification
+CI-B,5,259.83,C,The red one ,,
+CI-B,5,270.26,P,how do i open the locker ,WHQ,Query: Request Teaching: Target
+CI-B,5,273.34,C,"To open a locker, use the nearby panel. Insert the bypass and flip the switch to the On position",,
+CI-B,5,333.52,P,is this the bypass ,YNQ,Confirm Object by Location: Deictic Action
+CI-B,5,344.44,C,"Sorry, I can't rely on the video to answer that question",,
+CI-B,5,275.20,P,how do i open the red locker,WHQ,Query: Request Teaching: Target
+CI-B,5,382.11,C,"To open locker Z, move the switch to red and press the red button",,
+CI-B,5,403.04,P,it won't open,Statement,
+CI-B,5,451.23,P,what do i do next,WHQ,Query: Goal-Related
+CI-B,5,460.16,C,Move to the Delta platform ,,
+CI-B,5,467.96,P,where is the delta platform ,WHQ,Query: Location-Related
+CI-B,5,482.96,C,It's the middle in a set of three ,,
+CI-B,5,519.65,C,Pick up the optimized synthesizer,,
+CI-B,5,532.98,P,what does the optimized synthesizer look like ,WHQ,Query: Object Description: General
+CI-B,5,542.42,C,Synthesizers are measurement tools with a number display and a dial. There are 3 of them.,,
+CI-B,5,622.68,P,is it blue ,YNQ,Confirm Object by Feature: Color
+CI-B,5,625.9267,C,Yes,,
+CI-B,5,651.8466,P,what do i do with it,WHQ,Query: Goal-Related
+CI-B,5,654.0448,C,Move to the primary cabinet,,
+CI-B,5,661.9466,P,then what,WHQ,Query: Goal-Related
+CI-B,5,664.3792,C,Place the optimized synthesizer on shelf B,,
+CI-B,5,670.4866,P,how do i open it,WHQ,Query: Request Teaching: Target
+CI-B,5,683.4903,C,"To open the primary cabinet, arrange the keycards in the right order on the panel. There is a different order depending on which side you would like to open.",,
+CI-B,5,697.4866,P,which side is shelf B,WHQ,Query: Location-Related
+CI-B,5,704.8565,C,The right side,,
+CI-B,5,718.8866,P,how do i open the right side of the cabinet,WHQ,Query: Request Teaching: Target
+CI-B,5,721.6522,C,"The keycard order for the right cabinet door is: blue, brown, gray. Then press the red button. ",,
+CI-B,5,757.2066,P,done,Statement,
+CI-B,5,766.3356,C,Great,,
+CI-B,5,769.9066,P,now what,WHQ,Query: Goal-Related
+CI-B,5,775.265,C,Move to Crate 2,,
+CI-B,5,779.8866,P,where is crate 2,WHQ,Query: Location-Related
+CI-B,5,788.7213,C,It's the middle one in a set of three crates,,
+CI-B,5,797.4266,P,then what,WHQ,Query: Goal-Related
+CI-B,5,811.8845,C,Pick up the sonic optimizer from Crate 2,,
+CI-B,5,812.7466,P,how do you open crate 2,WHQ,Query: Request Teaching: Target
+CI-B,5,824.7656,C,"To open a crate, put in the access code on the nearby keypad",,
+CI-B,5,830.2657,C,The code for crate 2 is 5678,,
+CI-B,5,857.6666,P,then what,WHQ,Query: Goal-Related
+CI-B,5,860.4142,C,Move to the secondary cabinet,,
+CI-B,5,873.0066,P,then what,WHQ,Query: Goal-Related
+CI-B,5,876.2211,C,Place the sonic optimizer on shelf A ,,
+CI-B,5,883.1666,P,how do you open shelf a,WHQ,Query: Request Teaching: Target
+CI-B,5,896.0278,C,"To open the secondary cabinet, simply click on the door you'd like to open ",,
+CI-B,5,905.4066,P,which is shelf a,WHQ,Query: Object Identification
+CI-B,5,911.3054,C,It's the top left one,,
+CI-B,5,923.7266,P,which is the secondary cabinet,WHQ,Query: Object Identification
+CI-B,5,934.0658,C,It has brown doors,,
+CI-B,5,947.2066,P,done,Statement,
+CI-B,5,953.6466,P,now what,WHQ,Query: Goal-Related
+CI-B,5,955.7935,C,Great,,
+CI-B,5,957.4127,C,Move to Crate 3,,
+CI-B,5,970.7065,P,how do you open crate 3,WHQ,Query: Request Teaching: Target
+CI-B,5,973.6248,C,The code for crate 3 is 2580,,
+CI-B,5,986.6266,P,now what,WHQ,Query: Goal-Related
+CI-B,5,988.7533,C,Pick up the mechano calibrator from Crate 3,,
+CI-B,5,1045.227,P,then what,WHQ,Query: Goal-Related
+CI-B,5,1048.489,C,Move to locker Y,,
+CI-B,5,1060.907,P,how do you open locker y,WHQ,Query: Request Teaching: Target
+CI-B,5,1070.021,C,"To open locker Y, move the switch to gray and press the gray button",,
+CI-B,5,1135.247,P,it won't open,Statement,
+CI-B,5,1141.187,C,Make sure the switch is set to On then try it,,
+CI-B,5,1160.187,P,where do i place the item,WHQ,Query: Location-Related
+CI-B,5,1162.264,C,Place the mechano calibrator on the bottom shelf,,
+CI-B,5,1173.167,P,then what,WHQ,Query: Goal-Related
+CI-B,5,1177.604,C,"OK, almost done",,
+CI-B,5,1179.113,C,"The tesla capacitor goes in the secondary cabinet, shelf B",,
+CI-B,5,1221.447,P,what is the tesla capacitor,WHQ,Query: Object Identification
+CI-B,5,1228.508,C,Capacitors are cylinder-shaped storage containers.,,
+CI-B,5,1247.107,P,what color is it,WHQ,Query: Object Description: Color
+CI-B,5,1252.557,C,It is green,,
+CI-B,5,1297.667,P,where is it,WHQ,Query: Location-Related
+CI-B,5,1311.879,C,"If you do not see it, it may be locked in one of the containers.",,
+CI-B,5,1326.987,P,how do i open the left door of the main cabinet,WHQ,Query: Request Teaching: Target
+CI-B,5,1336.733,C,"The keycard order for the left cabinet door is: red, blue, brown. Then press the red button. ",,
+CI-B,5,1368.327,P,where do i pue the green thing,WHQ,Query: Location-Related
+CI-B,5,1377.095,C,"The tesla capacitor goes in the secondary cabinet, shelf B",,
+CI-B,5,1386.167,P,is that on the left,YNQ,Confirm Object by Location: Spatial
+CI-B,5,1392.599,C,It is the top right shelf,,
+CI-B,5,1404.247,P,done,Statement,
+CI-B,5,1410.896,C,"Great, last one",,
+CI-B,5,1413.152,C,"The temporal emitter goes in the secondary cabinet, shelf D",,
+CI-B,5,1413.887,P,ok,Statement,
+CI-B,5,1439.227,P,what is the temporal emitter,WHQ,Query: Object Identification
+CI-B,5,1453.945,C,Emitters are large storage blocks with a pattern on the front. There are 3 of them.,,
+CI-B,5,1471.407,P,what color is it,WHQ,Query: Object Description: Color
+CI-B,5,1481.502,C,They are all the same color - red,,
+CI-B,5,1502.207,P,which size,WHQ,Query: Object Description: Size
+CI-B,5,1517.885,C,it is the smallest one,,
+CI-B,5,1548.667,P,am i supposed to put the names of every item in the notes?,YNQ,Confirm Action: Task-Related
+CI-B,5,1559.677,C,"No, that's only to help you",,
+CI-B,5,1571.367,P,ok. where is shelf d,Statement,
+CI-B,5,1588.718,C,shelf d is the bottom right one,,
+CI-B,5,1594.987,P,done,Statement,
+CI-B,5,1608.41,C,OK you are finished,,

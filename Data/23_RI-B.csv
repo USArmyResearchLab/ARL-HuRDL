@@ -1,0 +1,118 @@
+Condition,ID,Time,Speaker,Utterance,Question Form,Question Type
+RI-B,23,37,C,intro message,,
+RI-B,23,72,C,Can I answer any questions for you?,,
+RI-B,23,78,P,"Alright I'm on it, do the containers have keys or how do I unlock them",Statement,
+RI-B,23,95,C,"To open a locker, use the nearby panel. Insert the bypass and flip the switch to the On position ",,
+RI-B,23,110,P,The bypass?,WHQ,Query: Object Identification
+RI-B,23,119,C,The bypass is a small block that should be near the lockers. It goes in the panel,,
+RI-B,23,154,P,I found a cylinder with little vents on the side?,Statement,"Confirm Object by Feature: Shape, Other"
+RI-B,23,164,C,the bypass is a small block,,
+RI-B,23,173,C,that item you found is not needed for the task,,
+RI-B,23,238,C,Can I answer any questions for you?,,
+RI-B,23,245,P,"Oh okay, I still haven't found the bypass, what does it look like",Statement,
+RI-B,23,258,C,The bypass is a small block that should be near the lockers,,
+RI-B,23,306,P,So it goes in the panel near the lockers then,YNQ,Confirm Action: Task-Related
+RI-B,23,310,C,yes,,
+RI-B,23,313,P,What do I do after that,WHQ,Query: Goal-Related
+RI-B,23,324,C,"To open locker Y, move the nozzle to gray and press the gray button",,
+RI-B,23,329,C,"To open locker Z, move the nozzle to red and press the red button",,
+RI-B,23,340,C,Make sure the On switch is on,,
+RI-B,23,376,P,is this panel supposed to light up when it's on,YNQ,Confirm Action: Other
+RI-B,23,383,C,no,,
+RI-B,23,392,P,Okay,Statement,
+RI-B,23,395,C,press the red button to open the locker with the nozzle also set to red,,
+RI-B,23,429,P,Okay all three lockers are open,Statement,
+RI-B,23,432,C,great,,
+RI-B,23,461,C,Can I answer any questions for you?,,
+RI-B,23,487.7452,P,Do I need an object that looks like a remote? it's in the red locker,YNQ,Confirm Object by Feature: Comparison
+RI-B,23,500.9452,P,It also has a dial on it,Statement,
+RI-B,23,503.1258,C,"yes, but there are three objects that look like remotes",,
+RI-B,23,519.1453,P,"Oh it's the red one, does that clear it up?",Statement,
+RI-B,23,526.8427,C,the one you need is blue,,
+RI-B,23,530.658,C,the red one is not needed,,
+RI-B,23,571.4853,P,"Okay I also found two bent bars, a green one and a yellow one",Statement,
+RI-B,23,588.4435,C,"those are not needed, but you will need a white one of those",,
+RI-B,23,628.2053,P,Okay I also found the red square with a yellow square in the middle with blue lines,Statement,
+RI-B,23,650.8938,C,"you will need one of those objects, but the one you need has a circle on it not a square",,
+RI-B,23,688.5052,P,"Boo okay next area has three boxes with a square, circle and triangle on each box with a numberpad next to it",Statement,
+RI-B,23,696.2227,C,ok,,
+RI-B,23,720.4053,P,Oh I also found the blue remote,Statement,
+RI-B,23,725.6509,C,great,,
+RI-B,23,771.1053,P,Do I need to do anything with the number pad,YNQ,Confirm Action: Task-Related
+RI-B,23,783.9427,C,"To open a crate, put in the access code on the nearby keypad",,
+RI-B,23,801.1252,P,How do I know what the access code is,WHQ,Query: Request Teaching: General
+RI-B,23,814.6598,C,The code for crate 2 is 5678,,
+RI-B,23,819.6926,C,The code for crate 3 is 2580,,
+RI-B,23,859.8652,P,I found the white bent bar in here,Statement,
+RI-B,23,864.9599,C,great,,
+RI-B,23,908.9852,P,"There's also a striped machine with a white grid on it, do I need to do anything with that",Statement,
+RI-B,23,932.4567,C,yes,,
+RI-B,23,943.2224,C,Pick it up,,
+RI-B,23,958.8253,P,"ON it, what do I do with it",Statement,
+RI-B,23,964.9655,C,Move to the secondary cabinet,,
+RI-B,23,985.8052,P,Where is the secondary cabinet,WHQ,Query: Location-Related
+RI-B,23,1014.045,P,Which shelf should I put it on,WHQ,Query: Location-Related
+RI-B,23,1016.919,C,Place the sonic optimizer on shelf A ,,
+RI-B,23,1024.925,P,Is that top left?,YNQ,Confirm Object by Location: Spatial
+RI-B,23,1027.927,C,yes,,
+RI-B,23,1071.965,P,"Okay, do all the items need to go in this cabinet?",YNQ,Confirm Action: Task-Related
+RI-B,23,1080.812,C,"no, they go in different places",,
+RI-B,23,1094.025,P,Okay where should the white bent bar go?,WHQ,Query: Goal-Related
+RI-B,23,1116.038,C,that is the mechano calibrator,,
+RI-B,23,1123.224,C,pick it up,,
+RI-B,23,1151.945,P,Okay I picked it up,Statement,
+RI-B,23,1153.921,C,Move to locker Y,,
+RI-B,23,1176.345,P,Locker Y is the white one right?,YNQ,Confirm Object by Feature: Color
+RI-B,23,1182.574,C,"the grey one, yes",,
+RI-B,23,1194.885,P,Top or bottom shelf?,AQ,Confirm Object by Location: Spatial
+RI-B,23,1197.632,C,Place the mechano calibrator on the bottom shelf,,
+RI-B,23,1221.145,P,"Okay now i still have the blue remote, where should I put that",Statement,
+RI-B,23,1234.77,C,that is the optimized synthesizer,,
+RI-B,23,1241.337,C,pick it up,,
+RI-B,23,1262.685,P,Got it,Statement,
+RI-B,23,1264.211,C,Move to the primary cabinet,,
+RI-B,23,1278.085,P,Which one is the primary one,WHQ,Query: Object Identification
+RI-B,23,1289.695,C,the cabinet near x99,,
+RI-B,23,1306.325,P,Okay,Statement,
+RI-B,23,1308.667,C,Place the optimized synthesizer on shelf B,,
+RI-B,23,1331.885,P,Is this cabinet locked at all?,YNQ,Query: Request Teaching: Target
+RI-B,23,1340.227,C,yes,,
+RI-B,23,1341.644,C,"To open the primary cabinet, arrange the keycards in the right order on the panel. There is a different order depending on which side you would like to open. ",,
+RI-B,23,1354.625,P,Okay how do I open B side,WHQ,Query: Request Teaching: Target
+RI-B,23,1360.363,C,"The keycard order for the right cabinet door is: blue, brown, gray. Then press the red button. ",,
+RI-B,23,1410.645,P,Okay Placed,Statement,
+RI-B,23,1413.074,C,great,,
+RI-B,23,1420.205,P,Where does the square with the circle in the middle go,WHQ,Query: Location-Related
+RI-B,23,1438.498,C,that is the temporal emitter,,
+RI-B,23,1441.264,C,"The temporal emitter goes in the secondary cabinet, shelf D",,
+RI-B,23,1451.725,P,Shelf D is bottom right?,YNQ,Confirm Object by Location: Spatial
+RI-B,23,1455.729,C,yes,,
+RI-B,23,1471.285,P,Placed,Statement,
+RI-B,23,1476.398,C,"great, you are almost done",,
+RI-B,23,1492.345,P,What item do I need next,WHQ,Query: Goal-Related
+RI-B,23,1503.528,C,next is the megaband module,,
+RI-B,23,1535.865,P,Does it look kind of like the ,,
+RI-B,23,1545.985,P,Does it look kind of like the sonic optimizer without the grid on it,YNQ,Confirm Object by Feature: Comparison
+RI-B,23,1560.423,C,yes that is about right,,
+RI-B,23,1573.045,P,What pattern do I need,WHQ,Query: Object Description: Pattern
+RI-B,23,1579.62,C,it is striped,,
+RI-B,23,1589.465,P,Found it where does it need to go,Statement,
+RI-B,23,1600.474,C,"The megaband module goes in locker Z, top shelf",,
+RI-B,23,1668.045,P,"Red locker top shelf, placed",Statement,
+RI-B,23,1675.081,C,"great, one more to go",,
+RI-B,23,1683.725,P,Okay what's the next item,WHQ,Query: Goal-Related
+RI-B,23,1697.876,C,next one is the tesla capacitor,,
+RI-B,23,1710.645,P,Do I need the pink grey or green one,AQ,Confirm Object by Feature: Color
+RI-B,23,1719.8,C,the green one,,
+RI-B,23,1751.865,P,Okay I think that one is locked in theother door of the primary cabinet ,Statement,
+RI-B,23,1758.254,C,right,,
+RI-B,23,1767.705,P,What sequence of cards to open it?,WHQ,Query: Request Teaching: Target
+RI-B,23,1769.363,C,"The keycard order for the left cabinet door is: red, blue, brown. Then press the red button. ",,
+RI-B,23,1812.265,P,Okay I have the tesla capacitor,Statement,
+RI-B,23,1815.694,C,great,,
+RI-B,23,1825.525,P,Where do I put it,WHQ,Query: Location-Related
+RI-B,23,1828.565,C,"The tesla capacitor goes in the secondary cabinet, shelf B",,
+RI-B,23,1867.385,P,Shelf b is top right?,YNQ,Confirm Object by Location: Spatial
+RI-B,23,1871.174,C,yes,,
+RI-B,23,1876.245,P,Okay Placed,Statement,
+RI-B,23,1886.254,C,"great, you are done",,

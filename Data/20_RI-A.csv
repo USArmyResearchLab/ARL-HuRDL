@@ -1,0 +1,82 @@
+Condition,ID,Time,Speaker,Utterance,Question Form,Question Type
+RI-A,20,13.4493,P,Hi,,
+RI-A,20,19.87175,C,You’ll need to locate and put away 6 different objects. Some of them may be locked in containers. I can help you by answering any questions you might have. Let’s begin.,,
+RI-A,20,33.80708,C,Keep in mind that I can’t see your screen so you will have to keep me updated on your progress.,,
+RI-A,20,55.24657,C,ok can I answer any questions for you?,,
+RI-A,20,112.3493,P,How do I open the red locker?,WHQ,Query: Request Teaching: Target
+RI-A,20,120.9211,C,"To open a locker, use the nearby panel. Insert the bypass and flip the switch to the On position ",,
+RI-A,20,126.126,C,"To open locker Z, move the nozzle to red and press the red button",,
+RI-A,20,151.9493,P,What does the bypass look like?,WHQ,Query: Object Description: General
+RI-A,20,172.26,C,The bypass is a small block that should be near the lockers. It goes in the panel,,
+RI-A,20,228.4693,P,where should i put the yellow pipe?,WHQ,Query: Location-Related
+RI-A,20,240.0966,C,The yellow pipe is not one of the objects needed for the task,,
+RI-A,20,254.2893,P,where should i put the green pipe?,WHQ,Query: Location-Related
+RI-A,20,260.2389,C,That is also not needed,,
+RI-A,20,267.6693,P,the red box needed?,YNQ,Confirm Action: Task-Related
+RI-A,20,279.101,C,Yes a red box is needed,,
+RI-A,20,288.5293,P,Where should i put the red box?,WHQ,Query: Location-Related
+RI-A,20,316.0639,C,"it goes in the secondary cabinet, shelf D",,
+RI-A,20,396.1493,P,Where is the secondary cabinet?,WHQ,Query: Location-Related
+RI-A,20,403.2138,C,it is the cabinet under C25,,
+RI-A,20,417.6893,P,Which shlef is shelf D?,WHQ,Query: Location-Related
+RI-A,20,422.3526,C,its the bottom right one,,
+RI-A,20,444.7493,P,And where should I put the object that is currently there?,WHQ,Query: Location-Related
+RI-A,20,453.7614,C,feel free to move that anywhere,,
+RI-A,20,510.9093,P,Where should I put the object that is in the red locker?,WHQ,Query: Location-Related
+RI-A,20,525.1193,C,"sorry I can't see your screen, please describe the object or ask me a question",,
+RI-A,20,561.3693,P,Where should I put the red device?,WHQ,Query: Location-Related
+RI-A,20,573.1469,C,"oh, that is not one of the objects needed",,
+RI-A,20,637.2666,C,Can I answer any questions for you?,,
+RI-A,20,645.5093,P,Where does the small cylinder go?,WHQ,Query: Location-Related
+RI-A,20,679.3796,C,"one of the items you need is a cylinder, but I'm not sure if it is the one you're talking about",,
+RI-A,20,705.6093,P,The one with blue on the top.,Statement,
+RI-A,20,705.8909,C,I believe the small one is not needed,,
+RI-A,20,711.252,C,that is not needed,,
+RI-A,20,725.7892,P,Is the purple cylinder needed?,YNQ,Confirm Action: Task-Related
+RI-A,20,730.1972,C,No,,
+RI-A,20,783.5693,P,Is the blue gun needed?,YNQ,Confirm Action: Task-Related
+RI-A,20,809.6937,C,There is one item like that that is needed,,
+RI-A,20,852.7493,P,Is it the one with the blue circle?,YNQ,"Confirm Object by Feature: Color, Symbol"
+RI-A,20,859.7274,C,"no, it has a square on it",,
+RI-A,20,887.7493,P,Where should I put it?,WHQ,Query: Location-Related
+RI-A,20,899.4442,C,Move to locker Z,,
+RI-A,20,927.6093,P,What does locker z look like?,WHQ,Query: Object Description: General
+RI-A,20,934.4733,C,it is the red locker,,
+RI-A,20,943.8492,P,top or bottom shelf?,AQ,Confirm Object by Location: Spatial
+RI-A,20,945.1512,C,Place the megaband module on the top shelf,,
+RI-A,20,996.8114,C,Can I answer any questions for you?,,
+RI-A,20,1026.109,P,Are any of the devices with keypads needed,YNQ,Confirm Action: Task-Related
+RI-A,20,1032.298,C,"yes, one of them is",,
+RI-A,20,1040.649,P,which one?,WHQ,Query: Goal-Related
+RI-A,20,1069.42,C,the sonic optimizer,,
+RI-A,20,1074.303,C,it has a + symbol on it,,
+RI-A,20,1116.309,P,how do i open the grey containers,WHQ,Query: Request Teaching: General
+RI-A,20,1122.168,C,"To open a crate, put in the access code on the nearby keypad",,
+RI-A,20,1135.009,P,what is the code for the circle crate,WHQ,Query: Request Teaching: Target
+RI-A,20,1144.934,C,The code for crate 2 is 5678,,
+RI-A,20,1165.029,P,what is the code for crate 3,WHQ,Query: Request Teaching: Target
+RI-A,20,1167.872,C,The code for crate 3 is 2580,,
+RI-A,20,1187.829,P,where does the sonic optimizer go?,WHQ,Query: Goal-Related
+RI-A,20,1197.696,C,"The sonic optimizer goes in the secondary cabinet, shelf A ",,
+RI-A,20,1260.916,C,"great, you are almost done",,
+RI-A,20,1271.629,P,is the white pipe needed,YNQ,Confirm Action: Task-Related
+RI-A,20,1279.58,C,yes,,
+RI-A,20,1286.309,P,where does it go,WHQ,Query: Location-Related
+RI-A,20,1293.743,C,"The mechano calibrator goes in locker Y, bottom shelf",,
+RI-A,20,1360.249,P,is the blue meter device needed,YNQ,Confirm Action: Task-Related
+RI-A,20,1365.288,C,yes,,
+RI-A,20,1371.429,P,where does it go,WHQ,Query: Location-Related
+RI-A,20,1377.363,C,Move to the primary cabinet,,
+RI-A,20,1384.109,P,which shelf,WHQ,Query: Location-Related
+RI-A,20,1386.387,C,Place the optimized synthesizer on shelf B,,
+RI-A,20,1405.569,P,how do i open the primary cabinet,WHQ,Query: Request Teaching: General
+RI-A,20,1413.1,C,"To open the primary cabinet, arrange the keycards in the right order on the panel. There is a different order depending on which side you would like to open. ",,
+RI-A,20,1428.869,P,which order opens the right side,WHQ,Query: Request Teaching: Target
+RI-A,20,1437.224,C,"The keycard order for the right cabinet door is: blue, brown, gray. Then press the red button. ",,
+RI-A,20,1487.329,P,is the green cylinder needed,YNQ,Confirm Action: Task-Related
+RI-A,20,1493.416,C,yes,,
+RI-A,20,1510.009,P,what is the code for the lfet side of the primary cabinet,WHQ,Query: Request Teaching: Target
+RI-A,20,1529.363,C,"The keycard order for the left cabinet door is: red, blue, brown. Then press the red button. ",,
+RI-A,20,1548.509,P,where does the green cylinder go,WHQ,Query: Location-Related
+RI-A,20,1551.165,C,"The tesla capacitor goes in the secondary cabinet, shelf B",,
+RI-A,20,1603.202,C,"great, you are finished",,

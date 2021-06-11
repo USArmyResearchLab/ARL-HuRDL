@@ -1,0 +1,125 @@
+Condition,ID,Time,Speaker,Utterance,Question Form,Question Type
+CI-B,18,7.57,P,hi,,
+CI-B,18,18.19,C,You'll need to locate and put away 6 different objects. Some of them may e locked in containers. I can help you by answering any questions you might have. Let's begin. ,,
+CI-B,18,44.25,C,Keep in mind that I can't see your screen so you will have to keep me update on your progress. ,,
+CI-B,18,59.96,P,okay ,,
+CI-B,18,65.70,P,The megaband module goes in locker Z. top shelf ,Statement,
+CI-B,18,108.54,P,what color is the megaband module? ,WHQ,Query: Object Description: Color
+CI-B,18,125.67,C,modules are all the same color - light grey with blue lines ,,
+CI-B,18,195.81,C,Can I answer any questions for you?,,
+CI-B,18,198.23,P,what shape? ,WHQ,Query: Object Description: Shape
+CI-B,18,214.45,C,Modules are scanning tools with a trigger and glowing lines in the front.,,
+CI-B,18,263.22,P,do they vary in size?,YNQ,Other
+CI-B,18,268.08,C,yes ,,
+CI-B,18,306.47,P,mega is the big one i assume? ,YNQ,Other
+CI-B,18,318.78,C,"No, it is smaller than the others ",,
+CI-B,18,329.79,P,oh okay ,Statement,
+CI-B,18,430.37,C,Can I answer any questions for you?,,
+CI-B,18,431.77,P,"is locker z yellow, red or gray ",AQ,Confirm Object by Feature: Color
+CI-B,18,436.17,C,it is red ,,
+CI-B,18,476.77,C,"To open a locker, use the nearby panel. insert the bypass and flip the switch to the On position ",,
+CI-B,18,485.08,C,"To open locker Z, move the switch to red and press the red button ",,
+CI-B,18,545.41,P,what is the bypass?,WHQ,Query: Object Identification
+CI-B,18,558.92,C,The bypass is a small block that should be near the lockers. It goes in the panel,,
+CI-B,18,663.33,P,is on the green or red light? ,AQ,Confirm Object by Feature: Color
+CI-B,18,671.01,C,the green light is on ,,
+CI-B,18,702.23,C,just hit the red button on top ,,
+CI-B,18,728.55,P,I can't get it to open ,Statement,
+CI-B,18,762.58,C,You sure you tried pressing the red button on top? ,,
+CI-B,18,789.07,C,ok I think you got it,,
+CI-B,18,790.57,P,let me double check again,Statement,
+CI-B,18,810.35,C,great ,,
+CI-B,18,859.73,C,ok next,,
+CI-B,18,864.58,P,Move to the Delta platform ,Statement,
+CI-B,18,869.77,P,okay ,Statement,
+CI-B,18,895.61,P,is that the other side ,AQ,Confirm Object by Location: Proximity
+CI-B,18,900.08,C,it's the middle on in a group of 3 platforms ,,
+CI-B,18,953.85,P,there is a blue and yellow device i am looking at ,Statement,
+CI-B,18,960.5817,C,Pick up the optimized synthesizer,,
+CI-B,18,968.5259,P,which one?,WHQ,Query: Object Identification
+CI-B,18,973.5858,C,it is blue,,
+CI-B,18,1002.929,C,let me know when you have it,,
+CI-B,18,1006.906,P,okay where does it go?,WHQ,Query: Location-Related
+CI-B,18,1010.016,C,Move to the primary cabinet,,
+CI-B,18,1032.586,P,the gray and brown one?,YNQ,Confirm Object by Feature: Color
+CI-B,18,1036.269,C,yes,,
+CI-B,18,1039.923,C,Place the optimized synthesizer on shelf B,,
+CI-B,18,1076.146,P,hodo i get them to open?,WHQ,Query: Request Teaching: General
+CI-B,18,1080.847,C,"To open the primary cabinet, arrange the keycards in the right order on the panel. There is a different order depending on which side you would like to open. ",,
+CI-B,18,1103.686,P,where are the key cards,WHQ,Query: Location-Related
+CI-B,18,1112.609,C,they are on the panel next to the cabinet,,
+CI-B,18,1169.566,P,which order do I place them in,WHQ,Query: Request Teaching: Target
+CI-B,18,1178.891,C,"The keycard order for the left cabinet door is: red, blue, brown. Then press the red button. ",,
+CI-B,18,1184.057,C,"The keycard order for the right cabinet door is: blue, brown, gray. Then press the red button. ",,
+CI-B,18,1257.666,P,got it,Statement,
+CI-B,18,1262.166,P,next?,WHQ,Query: Goal-Related
+CI-B,18,1266.957,C,great,,
+CI-B,18,1274.446,C,Move to Crate 2,,
+CI-B,18,1304.446,P,where is that,WHQ,Query: Location-Related
+CI-B,18,1311.441,C,it is the middle crate in a set of 3,,
+CI-B,18,1342.106,P,i am looking at a big machine with a keypad in the front,Statement,
+CI-B,18,1348.991,C,Pick up the sonic optimizer from Crate 2,,
+CI-B,18,1372.906,P,got it,Statement,
+CI-B,18,1384.2,C,great,,
+CI-B,18,1385.398,C,Move to the secondary cabinet,,
+CI-B,18,1401.846,P,what is the code to open it,WHQ,Query: Request Teaching: Target
+CI-B,18,1412.673,C,the secondary cabinet is not locked,,
+CI-B,18,1452.546,P,where do i place it,WHQ,Query: Location-Related
+CI-B,18,1455.924,C,Place the sonic optimizer on shelf A ,,
+CI-B,18,1472.746,P,which side is that,WHQ,Query: Location-Related
+CI-B,18,1481.955,C,its the top left shelf,,
+CI-B,18,1524.526,P,got it i think,Statement,
+CI-B,18,1527.14,C,great,,
+CI-B,18,1529.001,C,Move to Crate 3,,
+CI-B,18,1529.406,P,what is next,WHQ,Query: Goal-Related
+CI-B,18,1602.626,P,what color is the object,WHQ,Query: Object Description: Color
+CI-B,18,1612.966,C,it is white / camouflage color,,
+CI-B,18,1647.786,P,is it small or big?,AQ,Confirm Object by Feature: Size
+CI-B,18,1672.3,C,it is fairly small,,
+CI-B,18,1679.086,P,where is crate 3?,WHQ,Query: Location-Related
+CI-B,18,1688.16,C,crate 3 is the rightmost crate in a set of 3,,
+CI-B,18,1740.726,P,is it ,,
+CI-B,18,1748.646,P,I hope I have it,Statement,
+CI-B,18,1758.586,C,ok,,
+CI-B,18,1760.309,C,Move to locker Y,,
+CI-B,18,1777.026,P,is it cylinder?,YNQ,Confirm Object by Feature: Shape
+CI-B,18,1798.424,C,"no, the mechano calibrator is not a cylinder",,
+CI-B,18,1831.526,P,is it a cord?,YNQ,Confirm Object by Feature: Other
+CI-B,18,1834.808,C,yes,,
+CI-B,18,1925.342,C,can I answer any questions for you?,,
+CI-B,18,1951.726,P,what color is locker y,WHQ,Query: Object Description: Color
+CI-B,18,1956.365,C,it is grey,,
+CI-B,18,1993.646,P,it will not open,Statement,
+CI-B,18,2000.555,C,you are pressing the grey button?,,
+CI-B,18,2011.529,C,try picking up and putting down the bypass and then trying again,,
+CI-B,18,2020.386,P,okay,Statement,
+CI-B,18,2058.632,C,"if it's not working, go ahead and put it in locker x",,
+CI-B,18,2073.167,C,Place the mechano calibrator on the bottom shelf,,
+CI-B,18,2074.226,P,still will not open,Statement,
+CI-B,18,2126.966,P,locker x is red?,YNQ,Confirm Object by Feature: Color
+CI-B,18,2136.883,C,that's y. but it's okay put it there,,
+CI-B,18,2144.273,C,"sorry that's z, but its ok",,
+CI-B,18,2172.343,C,ok you are almost done,,
+CI-B,18,2178.606,P,oh okya x is yellow then,Statement,
+CI-B,18,2188.096,C,its fine,,
+CI-B,18,2190.343,C,next,,
+CI-B,18,2192.572,C,"The tesla capacitor goes in the secondary cabinet, shelf B",,
+CI-B,18,2228.226,P,what color is the telsa capacitor?,WHQ,Query: Object Description: Color
+CI-B,18,2236.319,C,it is green,,
+CI-B,18,2275.766,P,what is the keycode for the other side?,WHQ,Query: Request Teaching: Target
+CI-B,18,2284.748,C,"The keycard order for the left cabinet door is: red, blue, brown. Then press the red button. ",,
+CI-B,18,2346.826,P,where is the secondary cabinet located?,WHQ,Query: Location-Related
+CI-B,18,2356.622,C,it's under the C25 sign,,
+CI-B,18,2384.206,P,got it,Statement,
+CI-B,18,2395.276,C,ok last one,,
+CI-B,18,2396.879,C,"The temporal emitter goes in the secondary cabinet, shelf D",,
+CI-B,18,2412.846,P,what color is the temporal emitter,WHQ,Query: Object Description: Color
+CI-B,18,2422.626,C,all emitters are the same color - red,,
+CI-B,18,2461.066,P,"what size, or does it not matter?",WHQ,Query: Object Description: Size
+CI-B,18,2474.148,C,it is the smaller one,,
+CI-B,18,2548.406,P,they have different shapes on the front of them?,YNQ,Confirm Object by Feature: Shape
+CI-B,18,2557.598,C,yes,,
+CI-B,18,2607.906,P,shelf d is bottom right?,YNQ,Confirm Object by Location: Spatial
+CI-B,18,2622.593,C,correct,,
+CI-B,18,2676.126,P,"i got it, i think the smallest one may be in that locker. I placed the one with the circle on it",Statement,
+CI-B,18,2690.524,C,"ok, you are done",,

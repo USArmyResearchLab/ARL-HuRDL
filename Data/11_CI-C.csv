@@ -1,0 +1,111 @@
+Condition,ID,Time,Speaker,Utterance,Question Form,Question Type
+CI-C,11,49.08,P,hello again ,,
+CI-C,11,18.12,C,You'll need to locate and put away 6 different objects. I can help you by answering any questions you might have. Let's begin. ,,
+CI-C,11,35.85,P,Ok,,
+CI-C,11,38.51,C,Move to the primary cabinet ,,
+CI-C,11,64.60,C,I can't see your screen so please confirm,,
+CI-C,11,70.82,P,I am here ,Statement,
+CI-C,11,74.36,C,Pick up the tesla capacitor from shelf A,,
+CI-C,11,79.76,P,got it ,Statement,
+CI-C,11,90.06,C,Move to the secondary cabinet,,
+CI-C,11,95.22,P,or wait ,Statement,
+CI-C,11,102.76,P,does it have numbers on it? ,YNQ,Confirm Object by Feature: Other
+CI-C,11,113.36,P,or is it pink cylinder? ,YNQ,"Confirm Object by Feature: Color, Shape"
+CI-C,11,120.93,C,"No, capacitors do not have numbers",,
+CI-C,11,128.76,P,ok ,Statement,
+CI-C,11,142.43,C,"It is not a pink cylinder, it is green",,
+CI-C,11,165.06,P,what color is the primary cabinet ,WHQ,Query: Object Description: Color
+CI-C,11,170.51,C,it has grey doors ,,
+CI-C,11,236.24,P,ok i am at the grey doors,Statement,
+CI-C,11,246.12,C,great,,
+CI-C,11,247.67,C,Pick up the tesla capacitor from shelf A ,,
+CI-C,11,251.84,P,"but they do not open, i see to red boxes underneath",Statement,
+CI-C,11,262.06,P,two*,,
+CI-C,11,276.11,C,Please ask a more specific question so that I can understand your source of confusion.,,
+CI-C,11,298.62,P,grey doors wont open ,Statement,
+CI-C,11,309.0244,C,"To open the primary cabinet, arrange the keycards in the right order on the panel. There is a different order depending on which side you would like to open. ",,
+CI-C,11,385.2468,P,what order for the left side,WHQ,Query: Request Teaching: Target
+CI-C,11,388.0096,C,"The keycard order for the left cabinet door is: red, blue, brown. Then press the red button. ",,
+CI-C,11,413.8468,P,ok i have the tesla capcitor now,Statement,
+CI-C,11,419.2942,C,Move to the secondary cabinet,,
+CI-C,11,427.6668,P,ok,Statement,
+CI-C,11,435.2177,C,Place the tesla capacitor on shelf B,,
+CI-C,11,446.0268,P,top or bottom,AQ,Confirm Object by Location: Spatial
+CI-C,11,456.4232,C,It's the top right shelf,,
+CI-C,11,475.8668,P,done,Statement,
+CI-C,11,485.6855,C,great,,
+CI-C,11,490.4631,C,Move to the primary cabinet,,
+CI-C,11,495.4868,P,oke,Statement,
+CI-C,11,502.5941,C,Pick up the temporal emitter from shelf C,,
+CI-C,11,514.5668,P,its color ?,WHQ,Query: Object Description: Color
+CI-C,11,522.9764,C,All emitters are the same color - red,,
+CI-C,11,551.5668,P,is it small?,YNQ,Confirm Object by Feature: Size
+CI-C,11,554.8214,C,Yes,,
+CI-C,11,597.4268,P,i have it,Statement,
+CI-C,11,600.1442,C,Move to the secondary cabinet,,
+CI-C,11,609.3268,P,done,Statement,
+CI-C,11,610.7638,C,Place the temporal emitter on shelf D,,
+CI-C,11,615.8068,P,oe,Statement,
+CI-C,11,617.5468,P,done,Statement,
+CI-C,11,622.5466,C,great,,
+CI-C,11,624.0608,C,"The megaband module goes in locker Z, top shelf",,
+CI-C,11,636.6868,P,what color is that,WHQ,Query: Object Description: Color
+CI-C,11,651.9894,C,All modules are the same color - grey with glowing blue lines,,
+CI-C,11,671.9268,P,dark or light grey,AQ,Confirm Object by Feature: Color
+CI-C,11,677.9358,C,light grey,,
+CI-C,11,686.7268,P,big or small,AQ,Confirm Object by Feature: Size
+CI-C,11,695.6166,C,The megaband module is smaller,,
+CI-C,11,703.0268,P,locker z color?,WHQ,Query: Object Description: Color
+CI-C,11,707.8387,C,it is red,,
+CI-C,11,724.6068,P,how to open?,WHQ,Query: Request Teaching: Target
+CI-C,11,727.2195,C,"To open a locker, use the nearby panel. Insert the bypass and flip the switch to the On position ",,
+CI-C,11,739.1915,C,"To open locker Z, move the switch to red and press the red button",,
+CI-C,11,808.8068,P,how to open top shelf,WHQ,Query: Request Teaching: Target
+CI-C,11,817.2327,C,"If the locker is open, it should be open",,
+CI-C,11,831.4868,P,done,Statement,
+CI-C,11,838.611,C,"great, almost done",,
+CI-C,11,840.5096,C,"The optimized synthesizer goes in the primary cabinet, shelf B",,
+CI-C,11,862.1068,P,what color is the synthesizer,WHQ,Query: Object Description: Color
+CI-C,11,876.8794,C,It is blue,,
+CI-C,11,927.3868,P,does it have a dial?,YNQ,Confirm Object by Feature: Other
+CI-C,11,932.8035,C,yes,,
+CI-C,11,962.2668,P,top right shelf?,YNQ,Confirm Action: Task-Related
+CI-C,11,965.1155,C,yes,,
+CI-C,11,971.2668,P,done,Statement,
+CI-C,11,975.1106,C,great,,
+CI-C,11,977.8561,C,Move to Crate 2,,
+CI-C,11,1015.247,P,left right or middle?,AQ,Confirm Object by Location: Spatial
+CI-C,11,1019.585,C,it's the middle one,,
+CI-C,11,1025.747,P,whats the code?,WHQ,Query: Request Teaching: Target
+CI-C,11,1036.983,C,The code for crate 2 is 5678,,
+CI-C,11,1048.887,P,ok,Statement,
+CI-C,11,1053.35,C,Pick up the sonic optimizer from Crate 2,,
+CI-C,11,1067.887,P,ok,Statement,
+CI-C,11,1070.049,C,Move to the secondary cabinet,,
+CI-C,11,1093.747,P,which spot,WHQ,Query: Location-Related
+CI-C,11,1095.334,C,Place the sonic optimizer on shelf A,,
+CI-C,11,1109.867,P,done,Statement,
+CI-C,11,1114.187,C,"great, last one",,
+CI-C,11,1116.416,C,"The mechano calibrator goes in locker Y, bottom shelf",,
+CI-C,11,1129.847,P,color?,WHQ,Query: Object Description: Color
+CI-C,11,1135.587,P,of calibrator,,
+CI-C,11,1142.96,C,It is a camouflage color,,
+CI-C,11,1167.707,P,does it have numbers?,YNQ,Confirm Object by Feature: Other
+CI-C,11,1173.204,C,No,,
+CI-C,11,1209.727,P,blue glowing lines?,YNQ,Confirm Object by Feature: Pattern
+CI-C,11,1213.206,C,No,,
+CI-C,11,1242.767,P,pink camo?,YNQ,Confirm Object by Feature: Color
+CI-C,11,1250.874,C,"No, it is not pink",,
+CI-C,11,1267.287,P,is it like a snake,YNQ,Confirm Object by Feature: Comparison
+CI-C,11,1270.917,C,Yes,,
+CI-C,11,1285.667,P,green or yellow,AQ,Confirm Object by Feature: Color
+CI-C,11,1290.159,C,Neither,,
+CI-C,11,1310.227,P,where is it located,WHQ,Query: Location-Related
+CI-C,11,1323.616,C,"I am not sure. If you don't see it, it may be locked in a container",,
+CI-C,11,1336.447,P,what is left crate code,WHQ,Query: Request Teaching: Target
+CI-C,11,1340.267,P,i mean right,,
+CI-C,11,1342.888,C,The code for crate 3 is 2580,,
+CI-C,11,1373.647,P,where to put it?,WHQ,Query: Location-Related
+CI-C,11,1380.083,C,locker y bottom shelf,,
+CI-C,11,1390.487,P,done,Statement,
+CI-C,11,1397.146,C,"ok great, you are finished",,

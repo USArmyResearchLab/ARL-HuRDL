@@ -1,0 +1,101 @@
+Condition,ID,Time,Speaker,Utterance,Question Form,Question Type
+CI-A,4,10.33,P,Hi,,
+CI-A,4,21.34,C,You'll need to locate and place 6 different objects away. I can help you by answering any questions you might have. Let's begin. ,,
+CI-A,4,80.29,C,"The sonic optimizer goes in the secondary cabinet, shelf A ",,
+CI-A,4,126.05,P,What does the sonci optimizer look like? ,WHQ,Query: Object Description: General
+CI-A,4,139.60,C,Optimizers are motion trackers with a trigger and a keypad. There are 3 of them. ,,
+CI-A,4,235.24,C,Can I help answer any questions for you? ,,
+CI-A,4,260.89,P,How can I tell which item is the sonic optimizer?,WHQ,Query: Request Teaching: General
+CI-A,4,290.9106,C,You can ask me questions about the items,,
+CI-A,4,307.5931,P,What color is it?,WHQ,Query: Object Description: Color
+CI-A,4,326.4515,C,Optimizers are all the same color - brown,,
+CI-A,4,414.6331,P,I do not see any brown objects with a trigger and a keypad,Statement,
+CI-A,4,445.9993,C,"If you do not see it, it may be locked in one of the containers.",,
+CI-A,4,468.3531,P,How do I unlock the containers?,WHQ,Query: Request Teaching: General
+CI-A,4,489.6881,C,Tell me which container you would like to unlock. They each have a different procedure,,
+CI-A,4,542.2332,P,The grey container with the circle symbol at the bottom,Statement,
+CI-A,4,555.6335,C,"To open a crate, put in the access code on the nearby keypad",,
+CI-A,4,564.6732,P,What is the access code?,WHQ,Query: Request Teaching: Target
+CI-A,4,576.9399,C,The code for crate 2 is 5678,,
+CI-A,4,581.2482,C,The code for crate 3 is 2580,,
+CI-A,4,642.7332,P,Which cabinet is the secondary cabinet?,WHQ,Query: Object Identification
+CI-A,4,656.2704,C,The one with brown doors,,
+CI-A,4,695.3931,P,And which shelf is shelf A?,WHQ,Query: Object Identification
+CI-A,4,706.5737,C,Shelf A is the top left one,,
+CI-A,4,735.5731,P,Am I currently holding the ,YNQ,Confirm Object by Location: Deictic Action
+CI-A,4,742.8771,C,"Sorry, I can’t rely on the video to answer that question",,
+CI-A,4,751.4081,C,Can I help answer any questions for you?,,
+CI-A,4,795.3931,P,Does the sonic optimizer have an identifying symbol on it?,YNQ,Confirm Object by Feature: Symbol
+CI-A,4,806.5262,C,"Yes, it has a + symbol",,
+CI-A,4,839.9932,P,"Okay, done.",Statement,
+CI-A,4,842.397,C,Great,,
+CI-A,4,844.9456,C,"The mechano calibrator goes in locker Y, bottom shelf",,
+CI-A,4,882.9731,P,What does the mechano calibrator look like?,WHQ,Query: Object Description: General
+CI-A,4,896.4328,C,Calibrators are tube-like coils used for connecting electrical components. There are 3 of them.,,
+CI-A,4,933.4531,P,What color is the mechano calibrator?,WHQ,Query: Object Description: Color
+CI-A,4,966.5582,C,It is camouflage color,,
+CI-A,4,997.4932,P,What color are the connectors on the mechano calibrator?,WHQ,Query: Object Description: Color
+CI-A,4,1042.68,C,I believe it is white or yellow,,
+CI-A,4,1069.086,C,"Excuse me, white",,
+CI-A,4,1078.773,P,How do I open ,,
+CI-A,4,1087.353,P,How do I open locker Y?,WHQ,Query: Request Teaching: Target
+CI-A,4,1095.947,C,"To open a locker, use the nearby panel. Insert the bypass and flip the switch to the On position ",,
+CI-A,4,1103.413,C,"To open locker Y, move the switch to gray and press the gray button",,
+CI-A,4,1167.573,P,I did that and nothing happened.,Statement,
+CI-A,4,1171.034,C,The bypass is a small block that should be near the lockers.,,
+CI-A,4,1267.133,P,"Okay, done.",Statement,
+CI-A,4,1270.255,C,Great,,
+CI-A,4,1273.718,C,"The tesla capacitor goes in the secondary cabinet, shelf B",,
+CI-A,4,1332.493,P,What color are the connectors on the tesla capacitor?,WHQ,Query: Object Description: Color
+CI-A,4,1355.736,C,Capacitors don't have connectors,,
+CI-A,4,1367.92,C,Capacitors are cylinder-shaped storage containers.,,
+CI-A,4,1454.593,P,"Okay, is it the purple one or the grey one?",AQ,Confirm Object by Feature: Color
+CI-A,4,1466.551,C,It is green,,
+CI-A,4,1513.273,P,How do I open the grey cabinet doors?,WHQ,Query: Request Teaching: General
+CI-A,4,1517.307,C,"To open the primary cabinet, arrange the keycards in the right order on the panel. There is a different order depending on which side you would like to open.",,
+CI-A,4,1545.013,P,What is the proper order for the left door?,WHQ,Query: Request Teaching: Target
+CI-A,4,1551.208,C,"The keycard order for the left cabinet door is: red, blue, brown. Then press the red button. ",,
+CI-A,4,1580.053,P,What is the proper order for the right door?,WHQ,Query: Request Teaching: Target
+CI-A,4,1587.584,C,"The keycard order for the right cabinet door is: blue, brown, gray. Then press the red button. ",,
+CI-A,4,1691.453,P,"Okay, done.",Statement,
+CI-A,4,1703.83,C,Great,,
+CI-A,4,1705.884,C,Move to the primary cabinet,,
+CI-A,4,1718.533,P,Okay,Statement,
+CI-A,4,1722.792,C,Pick up the temporal emitter from shelf C,,
+CI-A,4,1768.333,P,Which shelf is C?,WHQ,Query: Object Identification
+CI-A,4,1776.959,C,Bottom left one,,
+CI-A,4,1808.093,P,Okay,Statement,
+CI-A,4,1810.507,C,Move to the secondary cabinet,,
+CI-A,4,1818.307,C,Place the temporal emitter on shelf D,,
+CI-A,4,1902.373,P,"Okay, done",Statement,
+CI-A,4,1906.794,C,"Great, almost done",,
+CI-A,4,1909.014,C,Move to the Alpha platform,,
+CI-A,4,1927.973,P,Which one is the alpha platform?,WHQ,Query: Object Identification
+CI-A,4,1936.162,C,The leftmost one in a set of three,,
+CI-A,4,1956.053,P,Okay,Statement,
+CI-A,4,1959.729,C,Pick up the megaband module,,
+CI-A,4,1982.133,P,What does the megaband module look like?,WHQ,Query: Object Description: General
+CI-A,4,1993.44,C,Modules are scanning tools with a trigger and glowing lines in the front. There are 3 of them.,,
+CI-A,4,2032.213,P,What shape does the megaband module have on it?,WHQ,Query: Object Description: Symbol
+CI-A,4,2050.067,C,When you pick it up you will see a square symbol,,
+CI-A,4,2074.193,P,Okay,Statement,
+CI-A,4,2078.254,C,Move to locker Z,,
+CI-A,4,2114.653,P,Okay,Statement,
+CI-A,4,2116.016,C,Place the megaband module on the top shelf,,
+CI-A,4,2131.413,P,"Okay, done",Statement,
+CI-A,4,2134.654,C,"Great, last one",,
+CI-A,4,2136.172,C,Move to the Delta platform ,,
+CI-A,4,2175.493,P,Which platform is the delta platform?,WHQ,Query: Object Identification
+CI-A,4,2183.478,C,It's the middle one in a set of three,,
+CI-A,4,2237.993,P,Okay,Statement,
+CI-A,4,2239.599,C,Pick up the optimized synthesizer,,
+CI-A,4,2254.913,P,What does the optimized synthesizer look like?,WHQ,Query: Object Description: General
+CI-A,4,2259.979,C,Synthesizers are measurement tools with a number display and dial. There are 3 of them.,,
+CI-A,4,2281.453,P,What color is the optimized synthesizer?,WHQ,Query: Object Description: Color
+CI-A,4,2287.024,C,It is blue,,
+CI-A,4,2308.593,P,Okay,Statement,
+CI-A,4,2311.101,C,Move to the primary cabinet,,
+CI-A,4,2328.373,P,Okay,Statement,
+CI-A,4,2330.361,C,Place the optimized synthesizer on shelf B,,
+CI-A,4,2341.813,P,"Okay, done",Statement,
+CI-A,4,2356.049,C,"Great, you're finished!",,

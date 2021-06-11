@@ -1,0 +1,107 @@
+Condition,ID,Time,Speaker,Utterance,Question Form,Question Type
+RI-A,25,22,C,intro message,,
+RI-A,25,84,C,Can I answer any questions for you?,,
+RI-A,25,85,P,Where should I put the polka dot r,WHQ,Query: Location-Related
+RI-A,25,96,C,that is not one of the objects needed for the task,,
+RI-A,25,110,P,ok,Statement,
+RI-A,25,147,P,is this object needed,YNQ,Confirm Action: Task-Related
+RI-A,25,163,C,"sorry, I can't see your screen. try describing the object of asking a question",,
+RI-A,25,176,P,it is purple and has polka dots,Statement,
+RI-A,25,192,C,that is not one of the objects needed,,
+RI-A,25,232,P,is the object with camo and light blue circle needed for the task,YNQ,Confirm Action: Task-Related
+RI-A,25,242,C,that is not needed either,,
+RI-A,25,315,P,is the small red box needed for the task,YNQ,Confirm Action: Task-Related
+RI-A,25,323,C,"yes, that is the temporal emitter",,
+RI-A,25,371,P,where does the temporal emitter go?,WHQ,Query: Location-Related
+RI-A,25,381,C,Move to the secondary cabinet,,
+RI-A,25,409.285,P,Is theq,,
+RI-A,25,427.8051,P,Is the secondary cabinet located under c25,YNQ,Confirm Object by Location: Landmark
+RI-A,25,431.3688,C,yes,,
+RI-A,25,446.145,P,where in the cabinet should i put it,WHQ,Query: Location-Related
+RI-A,25,450.038,C,Place the temporal emitter on shelf D,,
+RI-A,25,484.405,P,Is shelf d the bottom or middle?,AQ,Confirm Object by Location: Spatial
+RI-A,25,490.3588,C,its the bottom right shelf,,
+RI-A,25,502.265,P,thank you,Statement,
+RI-A,25,547.685,P,Is the red box with an x needed for the task?,YNQ,Confirm Action: Task-Related
+RI-A,25,550.7562,C,that is not needed,,
+RI-A,25,586.925,P,are the cabinet doors locked,YNQ,Query: Request Teaching: General
+RI-A,25,601.2383,C,yes,,
+RI-A,25,602.4475,C,"To open the primary cabinet, arrange the keycards in the right order on the panel. There is a different order depending on which side you would like to open. ",,
+RI-A,25,654.805,P,Is the strippedrr,,
+RI-A,25,686.345,P,Is the stripped object with a blue square need for the task,YNQ,Confirm Action: Task-Related
+RI-A,25,705.9891,C,"yes, that is the megaband module",,
+RI-A,25,726.145,P,where does it go,WHQ,Query: Location-Related
+RI-A,25,732.241,C,Move to locker Z,,
+RI-A,25,783.905,P,which one is locker z,WHQ,Query: Object Identification
+RI-A,25,787.9187,C,the red one,,
+RI-A,25,808.885,P,how to open locker,WHQ,Query: Request Teaching: Target
+RI-A,25,820.8812,C,"To open a locker, use the nearby panel. Insert the bypass and flip the switch to the On position ",,
+RI-A,25,825.5184,C,"To open locker Z, move the nozzle to red and press the red button",,
+RI-A,25,927.7656,C,Make sure the bypass is inserted,,
+RI-A,25,934.845,P,where is the bypass,WHQ,Query: Location-Related
+RI-A,25,944.0225,C,The bypass is a small block that should be near the lockers. It goes in the panel,,
+RI-A,25,1047.667,C,Can I answer any questions for you?,,
+RI-A,25,1082.005,P,can't find the bypass,Statement,
+RI-A,25,1093.681,C,it should be near the lockers,,
+RI-A,25,1170.975,C,see the object on the platform near the lockers?,,
+RI-A,25,1258.265,P,where in the red locker should i put,WHQ,Query: Location-Related
+RI-A,25,1261.021,C,Place the megaband module on the top shelf,,
+RI-A,25,1281.505,P,where in the red locker should i put the megaband should i put,WHQ,Query: Location-Related
+RI-A,25,1285.605,C,top shelf,,
+RI-A,25,1325.625,P,is the red meter needed for the task,YNQ,Confirm Action: Task-Related
+RI-A,25,1332.085,C,no that is not needed,,
+RI-A,25,1364.025,P,is the yellow pipe needed for the task,YNQ,Confirm Action: Task-Related
+RI-A,25,1370.676,C,no that is not needed,,
+RI-A,25,1402.725,P,is the green pipe needed for the task,YNQ,Confirm Action: Task-Related
+RI-A,25,1409.918,C,"no, that is not needed",,
+RI-A,25,1472.485,P,Is striped cylinder needed for the task,YNQ,Confirm Action: Task-Related
+RI-A,25,1482.506,C,no,,
+RI-A,25,1536.825,P,is the light grey with a triangle needed for the task,YNQ,Confirm Action: Task-Related
+RI-A,25,1555.678,C,no,,
+RI-A,25,1599.225,P,Is the machine with the dialpad and a white circle needed for the task,YNQ,Confirm Action: Task-Related
+RI-A,25,1612.37,C,no ,,
+RI-A,25,1728.585,P,how to pen cabinet door,WHQ,Query: Request Teaching: General
+RI-A,25,1747.087,C,"To open the primary cabinet, arrange the keycards in the right order on the panel. There is a different order depending on which side you would like to open. ",,
+RI-A,25,1758.785,P,what order do i need for the right side,WHQ,Query: Request Teaching: Target
+RI-A,25,1769.079,C,"The keycard order for the right cabinet door is: blue, brown, gray. Then press the red button. ",,
+RI-A,25,1795.665,P,what order for the left side,WHQ,Query: Request Teaching: Target
+RI-A,25,1809.711,C,"The keycard order for the left cabinet door is: red, blue, brown. Then press the red button. ",,
+RI-A,25,1834.065,P,is the green cylinder needed for the task,YNQ,Confirm Action: Task-Related
+RI-A,25,1846.495,C,"yes, that is the tesla capacitor",,
+RI-A,25,1864.845,P,where does it go,WHQ,Query: Location-Related
+RI-A,25,1882.042,C,"The tesla capacitor goes in the secondary cabinet, shelf B",,
+RI-A,25,1905.745,P,which one is shelf b,WHQ,Query: Object Identification
+RI-A,25,1915.529,C,top right,,
+RI-A,25,1995.825,P,is the red box with a yellow square needed?,YNQ,Confirm Action: Task-Related
+RI-A,25,2020.852,C,no,,
+RI-A,25,2114.985,P,how to open storage with square circle and triangle,WHQ,Query: Request Teaching: General
+RI-A,25,2130.533,C,"To open a crate, put in the access code on the nearby keypad",,
+RI-A,25,2136.95,C,The code for crate 2 is 5678,,
+RI-A,25,2140.938,C,The code for crate 3 is 2580,,
+RI-A,25,2194.425,P,the grey machine with dial pad and a cross is needed,Statement,Confirm Action: Task Related
+RI-A,25,2232.387,C,yes,,
+RI-A,25,2240.085,P,where does it go,WHQ,Query: Location-Related
+RI-A,25,2252.37,C,"The sonic optimizer goes in the secondary cabinet, shelf A ",,
+RI-A,25,2265.365,P,which one is shelf a,WHQ,Query: Object Identification
+RI-A,25,2333.305,P,which is shelf a,,
+RI-A,25,2355.145,P,is shelf a the middle one,YNQ,Confirm Object by Location: Spatial
+RI-A,25,2384.045,P,hello,,
+RI-A,25,2386.827,C,its the top left one,,
+RI-A,25,2389.005,P,can you help,YNQ,Other
+RI-A,25,2461.905,P,Is the pipe with the white ends needed,YNQ,Confirm Action: Task-Related
+RI-A,25,2464.016,C,yes,,
+RI-A,25,2474.065,P,where does it go,WHQ,Query: Location-Related
+RI-A,25,2502.649,C,"The mechano calibrator goes in locker Y, bottom shelf",,
+RI-A,25,2552.945,P,is locker y the yellow locker,YNQ,Confirm Object by Feature: Color
+RI-A,25,2572.326,C,its the grey one,,
+RI-A,25,2651.853,C,Can I answer any questions for you?,,
+RI-A,25,2748.725,P,is the blue meter needed,YNQ,Confirm Action: Task-Related
+RI-A,25,2759.351,C,"yes, that is the optimized synthesizer",,
+RI-A,25,2769.705,P,where does it go,WHQ,Query: Location-Related
+RI-A,25,2809.687,C,Move to the primary cabinet,,
+RI-A,25,2819.925,P,one what shelf does it go?,WHQ,Query: Location-Related
+RI-A,25,2829.77,C,Place the optimized synthesizer on shelf B,,
+RI-A,25,2840.685,P,which one is shelf B,WHQ,Query: Object Identification
+RI-A,25,2845.792,C,top right shelf,,
+RI-A,25,2901.931,C,"great, can you move to the secondary cabinet",,
+RI-A,25,2938.262,C,ok you are finished,,

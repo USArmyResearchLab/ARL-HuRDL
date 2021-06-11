@@ -1,0 +1,153 @@
+Condition,ID,Time,Speaker,Utterance,Question Form,Question Type
+RI-C,6,12.16,P,HELLO ,,
+RI-C,6,36.60,P,where does the item with the polkda dots go? ,WHQ,Query: Location-Related
+RI-C,6,63.25,C,That is not one of the items that needs to be put away. ,,
+RI-C,6,102.84,P,What about the gray item with blue spaces on it? ,WHQ,Query: Goal-Related
+RI-C,6,126.46,C,there are three of those items. You'll need to put one of them away. ,,
+RI-C,6,134.12,P,Where does it go. ,WHQ,Query: Location-Related
+RI-C,6,150.66,C,"The megaband module goes in locker Z, top shelf",,
+RI-C,6,176.40,P,which shelf is the locker? ,WHQ,Query: Object Identification
+RI-C,6,185.69,C,Locker Z is red ,,
+RI-C,6,270.54,P,Alright is that correct?,YNQ,Confirm Action: General
+RI-C,6,281.86,C,"Sorry, I can't rely on the video to answer that question",,
+RI-C,6,289.32,C,Can I help answer any questions for you? ,,
+RI-C,6,338.72,P,where does the pink and black item go?,WHQ,Query: Location-Related
+RI-C,6,250.24,C,That is not one of the items that needs to be put away,,
+RI-C,6,377.92,P,how about this big black item? ,WHQ,Query: Location-Related
+RI-C,6,414.53,C,I believe you are referring to the optimizer. There are three of those. One of them needs to be put away.,,
+RI-C,6,414.9,P,hello? ,Other,
+RI-C,6,424.98,P,ok where does it go? ,WHQ,Query: Location-Related
+RI-C,6,445.12,C,Move to Crate 2 ,,
+RI-C,6,460.7,P,where is crate 2? ,WHQ,Query: Location-Related
+RI-C,6,470.56,C,Crate two is the middle one in a group of three ,,
+RI-C,6,483.59,C,Pick up the sonic optimizer from Crate 2 ,,
+RI-C,6,506.28,P,it doesn't open ,Statement,
+RI-C,6,524.64,C,"To open a crate, put in the access code on the nearby keypad",,
+RI-C,6,538.68,P,what is the code ,WHQ,Query: Request Teaching: Target
+RI-C,6,547.20,C,The code for crate 2 is 5678,,
+RI-C,6,574.28,P,ok i picked up the object ,Statement,
+RI-C,6,576.68,C,Move to the secondary cabinet ,,
+RI-C,6,588.76,C,It is the brown cabinet ,,
+RI-C,6,608.2,P,narrow one next to two other cabinets? ,YNQ,Confirm Object by Feature: Shape
+RI-C,6,621.1312,C,there are only two cabinets ,,
+RI-C,6,628.31,C,The secondary one has brown doors ,,
+RI-C,6,648.82,P,alright ,Statement,
+RI-C,6,654.12,P,does it need a code? ,YNQ,Confirm Action: Task-Related
+RI-C,6,668.55,C,"No, the secondary cabinet opens by clicking the doors ",,
+RI-C,6,670.16,C,Place the sonic optimizer on shelf A ,,
+RI-C,6,683.02,P,doors do not open ,Statement,
+RI-C,6,762.71,C,The doors of the secondary cabinet open by clicking on them,,
+RI-C,6,796.73,P,they do not open ,Statement,
+RI-C,6,796.73,C,Perhaps you are at the wrong cabinet ,,
+RI-C,6,817.92,P,ok ,Statement,
+RI-C,6,822.16,C,Great ,,
+RI-C,6,825.62,P,so there is only one usable cabinet ,Statement,
+RI-C,6,849.69,C,Both cabinets can open ,,
+RI-C,6,855.14,P,Any other object I need to move? ,YNQ,Confirm Action: Task-Related
+RI-C,6,878.75,C,Yes ,,
+RI-C,6,883.36,P,which one ,WHQ,Query: Goal-Related
+RI-C,6,887.89,C,Move to the primary cabinet ,,
+RI-C,6,907.62,P,ok ,Statement,
+RI-C,6,910.06,C,Pick up the tesla capacitor from shelf A,,
+RI-C,6,924.02,P,what does that look like? ,WHQ,Query: Object Description: General
+RI-C,6,933.95,C,Capacitors are cylinder-shaped storage containers ,,
+RI-C,6,970.78,P,it's pink? ,YNQ,Confirm Object by Feature: Color
+RI-C,6,975.92,C,"No, it is green",,
+RI-C,6,1009.34,P,I can't find it ,Statement,
+RI-C,6,1029.37,C,It may be locked in one of the containers if you can't see it ,,
+RI-C,6,1052.46,P,ok what is the code for the third container ,WHQ,Query: Request Teaching: Target
+RI-C,6,1055.83,C,The code for crate 3 is 2580 ,,
+RI-C,6,1098.14,P,nevermind found it ,Statement,
+RI-C,6,1114.56,C,Great ,,
+RI-C,6,1115.91,C,Move to the secondary cabinet ,,
+RI-C,6,1130.44,P,the one with doors that do not open?,YNQ,Confirm Object by Feature: Other
+RI-C,6,1151.86,C,The primary cabinet is unlocked ,,
+RI-C,6,1158.76,P,ok,Statement,
+RI-C,6,1161.717,C,"sorry, the secondary cabinet is unlocked",,
+RI-C,6,1181.9,P,does it have red square boxes on the bottom shelves?,YNQ,Confirm Object by Feature: Other
+RI-C,6,1189.639,C,That is the primary cabinet,,
+RI-C,6,1202.36,P,ok which space does this go?,WHQ,Query: Location-Related
+RI-C,6,1205.192,C,Place the tesla capacitor on shelf B,,
+RI-C,6,1214.16,P,bottom left,YNQ,Confirm Action: Task-Related
+RI-C,6,1223.713,C,Shelf B is the top right one,,
+RI-C,6,1238.46,P,done,Statement,
+RI-C,6,1248.56,P,now where to,WHQ,Query: Location-Related
+RI-C,6,1250.842,C,Great,,
+RI-C,6,1259.553,C,Move to the primary cabinet,,
+RI-C,6,1269.8,P,isn't that where I am?,YNQ,Confirm Action: Task-Related
+RI-C,6,1282.46,P,this is taking too long,Statement,
+RI-C,6,1282.625,C,The primary cabinet has grey doors,,
+RI-C,6,1288.14,P,ok,Statement,
+RI-C,6,1295.6,P,the doors do not open!,Statement,
+RI-C,6,1316.36,P,ok,Statement,
+RI-C,6,1318.228,C,"To open the primary cabinet, arrange the keycards in the right order on the panel. There is a different order depending on which side you would like to open. ",,
+RI-C,6,1346.22,P,ok how do I arrange them?,WHQ,Query: Request Teaching: General
+RI-C,6,1352.682,C,"The keycard order for the left cabinet door is: red, blue, brown. Then press the red button.",,
+RI-C,6,1357.904,C,"The keycard order for the right cabinet door is: blue, brown, gray. Then press the red button. ",,
+RI-C,6,1424.84,P,alright,Statement,
+RI-C,6,1427.507,C,Pick up the temporal emitter from shelf C,,
+RI-C,6,1444.78,P,bottom left or right?,AQ,Confirm Object by Location: Spatial
+RI-C,6,1457.421,C,It is in the bottom left shelf,,
+RI-C,6,1463.1,P,ah I see the green capacitor now,Statement,
+RI-C,6,1470.08,P,ok where does emitter go?,WHQ,Query: Location-Related
+RI-C,6,1476.423,C,Move to the secondary cabinet,,
+RI-C,6,1492.76,P,ok,Statement,
+RI-C,6,1493.724,C,Place the temporal emitter on shelf D,,
+RI-C,6,1503.42,P,bottom right,YNQ,Confirm Object by Location: Spatial
+RI-C,6,1507.794,C,Yes,,
+RI-C,6,1558.4,P,alright where to now?,WHQ,Query: Location-Related
+RI-C,6,1577.535,C,"The optimized synthesizer goes in the primary cabinet, shelf B",,
+RI-C,6,1609.88,P,what does it look like?,WHQ,Query: Object Description: General
+RI-C,6,1617.525,C,Synthesizers are measurement tools with a number display and dial. There are 3 of them.,,
+RI-C,6,1651.72,P,Sort of rectangular?,YNQ,Confirm Object by Feature: Shape
+RI-C,6,1658.974,C,Yes,,
+RI-C,6,1670.42,P,i see a blue one,Statement,
+RI-C,6,1677.38,P,and a brown one,Statement,
+RI-C,6,1706.086,C,Please ask a more specific question so that I can understand your source of confusion.,,
+RI-C,6,1724.34,P,what color is the synthesizer?,WHQ,Query: Object Description: Color
+RI-C,6,1728.482,C,It is blue,,
+RI-C,6,1753.78,P,ok where does it go?,WHQ,Query: Location-Related
+RI-C,6,1761.183,C,"The optimized synthesizer goes in the primary cabinet, shelf B",,
+RI-C,6,1782.56,P,top right?,YNQ,Confirm Object by Location: Spatial
+RI-C,6,1785.855,C,Correct,,
+RI-C,6,1791.7,P,alright what next?,WHQ,Query: Goal-Related
+RI-C,6,1798.248,C,OK last one,,
+RI-C,6,1800.544,C,"The mechano calibrator goes in locker Y, bottom shelf",,
+RI-C,6,1809.42,P,what does it look like?,WHQ,Query: Object Description: General
+RI-C,6,1813.094,C,Calibrators are tube-like coils used for connecting electrical components. There are 3 of them.,,
+RI-C,6,1833.18,P,ok,Statement,
+RI-C,6,1840.2,P,see one in the right container,Statement,
+RI-C,6,1861.86,P,and two in another locker,Statement,
+RI-C,6,1869.54,P,which one is it?,WHQ,Query: Object Identification
+RI-C,6,1875.025,C,Please ask a more specific question so that I can understand your source of confusion.,,
+RI-C,6,1889.28,P,what color are the ends of the calibrator?,WHQ,Query: Object Description: Color
+RI-C,6,1897.3,P,One has yellow ends,Statement,
+RI-C,6,1899.588,C,They should be white,,
+RI-C,6,1901.68,P,one has green,Statement,
+RI-C,6,1944.56,P,alright,Statement,
+RI-C,6,1949.8,P,where does it go,WHQ,Query: Location-Related
+RI-C,6,1963.208,C,"The mechano calibrator goes in locker Y, bottom shelf",,
+RI-C,6,1973.06,P,what does locker Y look like?,WHQ,Query: Object Description: General
+RI-C,6,1980.507,C,Locker Y is the grey locker,,
+RI-C,6,1994.22,P,how do I open it?,WHQ,Query: Request Teaching: General
+RI-C,6,2003.104,C,"To open a locker, use the nearby panel. Insert the bypass and flip the switch to the On position",,
+RI-C,6,2012.097,C,"To open locker Y, move the switch to gray and press the gray button",,
+RI-C,6,2048.18,P,there is no gray button,Statement,
+RI-C,6,2053.5,P,just yellow and red,Statement,
+RI-C,6,2066.979,C,There are three color buttons on the panel,,
+RI-C,6,2079.014,C,grey is in the middle,,
+RI-C,6,2094.38,P,oh it looks black,Statement,
+RI-C,6,2104.414,C,"Ah, yes that's it",,
+RI-C,6,2152.14,P,it's not opening the cabinet,Statement,
+RI-C,6,2161.564,C,Did you insert the bypass?,,
+RI-C,6,2171.22,P,where is that,WHQ,Query: Location-Related
+RI-C,6,2174.544,C,The bypass is a small block that should be near the lockers.,,
+RI-C,6,2199.84,P,is it black in color,YNQ,Confirm Object by Feature: Color
+RI-C,6,2202.706,C,Yes,,
+RI-C,6,2226.92,P,nevermind that is blue,Statement,
+RI-C,6,2238.327,C,It is a dark colored block,,
+RI-C,6,2318.56,P,alright,Statement,
+RI-C,6,2324.54,P,top or bottom shelf,YNQ,Confirm Object by Location: Spatial
+RI-C,6,2326.611,C,"The mechano calibrator goes in locker Y, bottom shelf",,
+RI-C,6,2352.52,P,ok,Statement,
+RI-C,6,2365.653,C,"OK, great you are done!",,

@@ -1,0 +1,106 @@
+Condition,ID,Time,Speaker,Utterance,Question Form,Question Type
+CI-A,27,20,C,intro message,,
+CI-A,27,30,P,Ok!,,
+CI-A,27,40,C,"The sonic optimizer goes in the secondary cabinet, shelf A",,
+CI-A,27,56,P,What does the sonic optimizer look like?,WHQ,Query: Object Description: General
+CI-A,27,61,C,Optimizers are motion trackers with a trigger and a keypad. There are 3 of them.,,
+CI-A,27,87,P,3 triggers,,
+CI-A,27,97,P,or 3 optimizers?,AQ,Query: Other
+CI-A,27,100,C,"no, three optimizers",,
+CI-A,27,125,P,"I see 2 so far, one with dots and one just green",Statement,
+CI-A,27,141,C,"If you don't see one, it may be locked in a container",,
+CI-A,27,161,P,How do I unlock containers?,WHQ,Query: Request Teaching: General
+CI-A,27,177,C,which dontainer do you want to open? they all have different procedures,,
+CI-A,27,200,P,The large cabinet with 2 doors first.,Statement,
+CI-A,27,208,C,"To open the primary cabinet, arrange the keycards in the right order on the panel. There is a different order depending on which side you would like to open.",,
+CI-A,27,227,P,"The left side first, please",Statement,
+CI-A,27,234,C,"The keycard order for the left cabinet door is: red, blue, brown. Then press the red button. ",,
+CI-A,27,255.1,P,Now the right side.,Statement,
+CI-A,27,263.5024,C,"The keycard order for the right cabinet door is: blue, brown, gray. Then press the red button. ",,
+CI-A,27,308.62,P,"Ok, how do I open the striped grey cabinet with a circle symbol?",WHQ,Query: Request Teaching: Target
+CI-A,27,313.2505,C,"To open a crate, put in the access code on the nearby keypad",,
+CI-A,27,318.2975,C,The code for crate 2 is 5678,,
+CI-A,27,350.64,P,What about the triangle crate?,WHQ,Query: Request Teaching: Target
+CI-A,27,357.3572,C,The code for crate 3 is 2580,,
+CI-A,27,394.78,P,How do I open the red locker?,WHQ,Query: Request Teaching: Target
+CI-A,27,404.5652,C,"To open a locker, use the nearby panel. Insert the bypass and flip the switch to the On position ",,
+CI-A,27,413.5381,C,"To open locker Z, move the nozzle to red and press the red button",,
+CI-A,27,457.28,P,What is the bypass and where do I find it?,WHQ,Query: Request Teaching: General
+CI-A,27,463.8204,C,The bypass is a small block that should be near the lockers. It goes in the panel,,
+CI-A,27,523.14,P,"Ok, what about the grey locker?",WHQ,Query: Request Teaching: General
+CI-A,27,538.16,C,"To open locker Y, move the nozzle to gray and press the gray button",,
+CI-A,27,597.68,P,"Ok, I see all 3 optimizer, which do I need to move?",WHQ,Query: Goal-Related
+CI-A,27,606.1738,C,"The sonic optimizer goes in the secondary cabinet, shelf A",,
+CI-A,27,634.02,P,"Which one is the sonic optimizer, the green on, the dotted one, or the one with a cross?",AQ,"Query: Object Description: Color, Pattern"
+CI-A,27,645.1514,C,its the one with a cross,,
+CI-A,27,667.42,P,what is the secondary cabinet?,WHQ,Query: Object Identification
+CI-A,27,674.5933,C,its the one with brown doors,,
+CI-A,27,690.66,P,Which shelf is A?,WHQ,Query: Object Identification
+CI-A,27,697.9586,C,the top left shelf,,
+CI-A,27,756.4695,C,done?,,
+CI-A,27,758.2,P,"Ok, the sonic optimizer is put away, what's next?",WHQ,Query: Goal-Related
+CI-A,27,763.3454,C,"The mechano calibrator goes in locker Y, bottom shelf",,
+CI-A,27,782.86,P,What does the mechano calibrator look like?,WHQ,Query: Object Description: General
+CI-A,27,788.7456,C,Calibrators are tube-like coils used for connecting electrical components. There are 3 of them.,,
+CI-A,27,822.2,P,"I see them, what does the mechano one look like?",WHQ,Query: Object Description: General
+CI-A,27,835.0727,C,it has white ends,,
+CI-A,27,874.2599,P,"Got it, which locker is Y?",WHQ,Query: Object Identification
+CI-A,27,879.5038,C,the grey locker,,
+CI-A,27,894.96,P,"Ok, the calibrator is put away, what's next?",WHQ,Query: Goal-Related
+CI-A,27,899.2722,C,"The tesla capacitor goes in the secondary cabinet, shelf B",,
+CI-A,27,916.16,P,What does a capacitator look like?,WHQ,Query: Object Description: General
+CI-A,27,924.5663,C,Capacitors are cylinder-shaped storage containers.,,
+CI-A,27,957.16,P,"Ok, what color is the tesla capacitator?",WHQ,Query: Object Description: Color
+CI-A,27,964.687,C,green,,
+CI-A,27,995.9999,P,"Ok, which shelf is B?",WHQ,Query: Object Identification
+CI-A,27,1001.921,C,the top right one,,
+CI-A,27,1050.92,P,"Ok, the capacitator is put away, what's next?",WHQ,Query: Goal-Related
+CI-A,27,1055.826,C,Move to the primary cabinet,,
+CI-A,27,1074.16,P,ok',Statement,
+CI-A,27,1077.578,C,Pick up the temporal emitter from shelf C,,
+CI-A,27,1090.82,P,which shelf is C?,WHQ,Query: Object Identification
+CI-A,27,1095.13,C,bottom left one,,
+CI-A,27,1119.18,P,The temporal emitter is a small red box?,YNQ,"Confirm Object by Feature: Size, Color, Shape"
+CI-A,27,1121.919,C,yes,,
+CI-A,27,1133.54,P,with the circle on it?,YNQ,Confirm Object by Feature: Symbol
+CI-A,27,1137.289,C,correct,,
+CI-A,27,1141.96,P,"Ok, I have it.",Statement,
+CI-A,27,1143.462,C,Move to the secondary cabinet,,
+CI-A,27,1154.06,P,Ok.,Statement,
+CI-A,27,1154.682,C,Place the temporal emitter on shelf D,,
+CI-A,27,1178.84,P,Shelf D is the bottom right?,YNQ,Confirm Object by Location: Size
+CI-A,27,1181.71,C,yes,,
+CI-A,27,1191.16,P,"Ok, it's put away.",Statement,
+CI-A,27,1197.702,C,great,,
+CI-A,27,1202.745,C,Move to the primary cabinet,,
+CI-A,27,1230.46,P,ok,Statement,
+CI-A,27,1232.406,C,Pick up the megaband module from shelf A,,
+CI-A,27,1250.82,P,What does that look like,WHQ,Query: Object Description: General
+CI-A,27,1259.567,C,Modules are scanning tools with a trigger and glowing lines in the front. There are 3 of them.,,
+CI-A,27,1282.64,P,"Ok, I have it. ",Statement,
+CI-A,27,1284.325,C,Move to locker Z,,
+CI-A,27,1308.96,P,Which locker is Z?,WHQ,Query: Object Identification
+CI-A,27,1312.43,C,the red one,,
+CI-A,27,1339.28,C,Place the megaband module on the top shelf,,
+CI-A,27,1340.28,P,I'm at locker Z,Statement,
+CI-A,27,1404.74,P,"Just to clarify, the megaband module is the striped one with a sqaure?",YNQ,"Confirm Object by Feature: Pattern, Symbol"
+CI-A,27,1410.177,C,correct,,
+CI-A,27,1415.08,P,It's put away.,Statement,
+CI-A,27,1420.952,C,"great, one more to go",,
+CI-A,27,1423.678,C,Move to the Delta platform ,,
+CI-A,27,1439.58,P,what does the Delta platform look like?,WHQ,Query: Object Description: General
+CI-A,27,1446.715,C,it's the middle platform in a set of 3,,
+CI-A,27,1478.96,P,To the right of the primiary cabinet?,YNQ,Confirm Object by Location: Landmark
+CI-A,27,1483.122,C,yes,,
+CI-A,27,1488.3,P,I'm there.,Statement,
+CI-A,27,1489.729,C,Pick up the optimized synthesizer,,
+CI-A,27,1506.68,P,The blue object that looks a bit like a remote?,YNQ,"Confirm Object by Feature: Color, Comparison"
+CI-A,27,1511.115,C,yes that's it,,
+CI-A,27,1544.7,P,"ok, where does it go?",WHQ,Query: Goal-Related
+CI-A,27,1547.435,C,Move to the primary cabinet,,
+CI-A,27,1551.62,P,ok,Statement,
+CI-A,27,1553.521,C,Place the optimized synthesizer on shelf B,,
+CI-A,27,1579.24,P,"That's the top right, if I remember correctly?",YNQ,Confirm Object by Location: Spatial
+CI-A,27,1582.162,C,yes,,
+CI-A,27,1586.28,P,It's put away.,Statement,
+CI-A,27,1590.962,C,ok you're done,,

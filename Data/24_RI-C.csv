@@ -1,0 +1,93 @@
+Condition,ID,Time,Speaker,Utterance,Question Form,Question Type
+RI-C,24,28,C,intro message,,
+RI-C,24,67,P,what's the yellow calculator called?,WHQ,Query: Object Naming
+RI-C,24,85,C,that is the galvanic synthesizer,,
+RI-C,24,93,P,what is the red calculator called?,WHQ,Query: Object Naming
+RI-C,24,106,C,modular synthesizer,,
+RI-C,24,113,P,what's the blue calculator called?,WHQ,Query: Object Naming
+RI-C,24,121,C,optimized synthesizer,,
+RI-C,24,151,P,are any of those 3 items one of the 6 I need to place in specific areas?,WHQ,Query: Goal-Related
+RI-C,24,161,C,"yes, the optimized synthesizer",,
+RI-C,24,182.38,P,what is the large green canister called?,WHQ,Query: Object Naming
+RI-C,24,199.621,C,tesla capacitor,,
+RI-C,24,228.72,P,and any of the 3 capacitors one of the 6 objects I need to place?,WHQ,Query: Goal-Related
+RI-C,24,240.1401,C,"yes, the tesla capacitor",,
+RI-C,24,253.84,P,that the the only one of the 3 capacitors?,WHQ,Query: Goal-Related
+RI-C,24,258.1422,C,yes,,
+RI-C,24,287.46,P,what is the long tube with the yellopw ends called?,WHQ,Query: Object Naming
+RI-C,24,309.0599,P,"yellow, sorry",,
+RI-C,24,313.3286,C,cryo calibrator,,
+RI-C,24,343.8599,P,"how many of the caliubrators do I need to place in a specific area, and what are there names?",WHQ,Query: Goal-Related
+RI-C,24,350.9399,P,calibrators*,,
+RI-C,24,356.8644,C,"only one, the mechano calibrator",,
+RI-C,24,380.0599,P,what is the name of the calibrato with the green ends?,WHQ,Query: Object Naming
+RI-C,24,394.8852,C,delta calibrator,,
+RI-C,24,444.46,P,"what is the name of the rex box with an ""X"" in the center",WHQ,Query: Object Naming
+RI-C,24,450.58,P,"sorry, the red* box",,
+RI-C,24,454.0784,C,organic emitter,,
+RI-C,24,468.6799,P,which emitter is one of the 6 items I need to place?,WHQ,Query: Goal-Related
+RI-C,24,475.326,C,the temporal emitter,,
+RI-C,24,496.84,P,what is the name of the red box with a circle in the middle?,WHQ,Query: Object Naming
+RI-C,24,502.9409,C,temporal emitter,,
+RI-C,24,537.24,P,what is the name of the device with a white circle in the top left?,WHQ,Query: Object Naming
+RI-C,24,559.228,C,please describe it a bit more,,
+RI-C,24,590.6199,P,"white circle in the top left, number pad in the middle, looks to have a handle on the right side",Statement,
+RI-C,24,604.0636,C,that's the quantum optimizer,,
+RI-C,24,625.4,P,which of the opitimizers needs to be placed in a specific location?,WHQ,Query: Goal-Related
+RI-C,24,653.4019,C,the sonic optimizer,,
+RI-C,24,680.22,P,which of the opimizers has dots all over it?,WHQ,Query: Object Naming
+RI-C,24,709.2538,C,the advanced optimizer,,
+RI-C,24,777.3799,P,"what is the name of the object shaped like a ""C"" with vertical stripes and a blue square in the top left?",WHQ,Query: Object Naming
+RI-C,24,807.6398,C,megaband module,,
+RI-C,24,827.98,P,which module needs to be placed in a specific location?,WHQ,Query: Goal-Related
+RI-C,24,850.3016,C,megaband module,,
+RI-C,24,876.64,P,where does the megaband module go?,WHQ,Query: Location-Related
+RI-C,24,915.3712,C,"The megaband module goes in locker Z, top shelf",,
+RI-C,24,953.28,P,what color is locker z?,WHQ,Query: Object Description: Color
+RI-C,24,958.1239,C,red,,
+RI-C,24,971.72,P,how can I open locker z?,WHQ,Query: Request Teaching: Target
+RI-C,24,982.3358,C,"To open a locker, use the nearby panel. Insert the bypass and flip the switch to the On position ",,
+RI-C,24,988.7914,C,"To open locker Z, move the nozzle to red and press the red button",,
+RI-C,24,1057.54,P,where is the bypass?,WHQ,Query: Location-Related
+RI-C,24,1063.715,C,The bypass is a small block that should be near the lockers. It goes in the panel,,
+RI-C,24,1132.5,P,where does the tesla capacitor go?,WHQ,Query: Location-Related
+RI-C,24,1156.499,C,"secondary cabinet, shelf B",,
+RI-C,24,1178.26,P,is shelf b on the top or bottom?,AQ,Confirm Object by Location: Spatial
+RI-C,24,1185.289,C,its the top right shelf,,
+RI-C,24,1209.68,P,what car combination opens the shavles?,WHQ,Query: Request Teaching: Target
+RI-C,24,1212.92,P,card*,,
+RI-C,24,1219.909,C,"The keycard order for the left cabinet door is: red, blue, brown. Then press the red button. ",,
+RI-C,24,1224.205,C,"The keycard order for the right cabinet door is: blue, brown, gray. Then press the red button. ",,
+RI-C,24,1284.82,P,where does the opimized synthesizer go?,WHQ,Query: Location-Related
+RI-C,24,1296.905,C,"The optimized synthesizer goes in the primary cabinet, shelf B",,
+RI-C,24,1299.34,P,this is like a really slow version of Myst,Statement,
+RI-C,24,1322.5,P,what color is the primary cabinet?,WHQ,Query: Object Description: Color
+RI-C,24,1333.01,C,it is the one with grey doors,,
+RI-C,24,1344.26,P,"greay cabinet, top shelf, left side",Statement,
+RI-C,24,1350.02,P,grey*,,
+RI-C,24,1369.464,C,shelf b is top right side,,
+RI-C,24,1404.48,P,what color is the secondary cabinet?,WHQ,Query: Object Description: Color
+RI-C,24,1409.627,C,it has brown doors,,
+RI-C,24,1473,P,what is the combination to the box with a gold circle at the bottom?,WHQ,Query: Request Teaching: Target
+RI-C,24,1482.998,C,The code for crate 2 is 5678,,
+RI-C,24,1496.72,P,what is the combination for crate 3?,WHQ,Query: Request Teaching: Target
+RI-C,24,1504.305,C,The code for crate 3 is 2580,,
+RI-C,24,1535.98,P,where does the sonic optimizer go?,WHQ,Query: Location-Related
+RI-C,24,1549.665,C,"secondary cabinet, shelf A",,
+RI-C,24,1568.92,P,is shelf A top left?,YNQ,Confirm Object by Location: Spatial
+RI-C,24,1571.818,C,yes,,
+RI-C,24,1643.62,P,so the secondary cabinet has both the sonic opimizer and tesla capacitor on the top shelves,Statement,
+RI-C,24,1653.643,C,correct,,
+RI-C,24,1673.68,P,"and the secondary cabinet has brown doors, not grey",Statement,
+RI-C,24,1684.104,C,that's correct,,
+RI-C,24,1700.8,P,where does the mechano calibrator go?,WHQ,Query: Goal-Related
+RI-C,24,1715.22,C,"The mechano calibrator goes in locker Y, bottom shelf",,
+RI-C,24,1733.02,P,what color is locker y?,WHQ,Query: Object Description: Color
+RI-C,24,1735.54,P,grey?,YNQ,Query: Other
+RI-C,24,1736.21,C,grey,,
+RI-C,24,1770.1,P,where does the temporal emitter go?,WHQ,Query: Goal-Related
+RI-C,24,1784.479,C,"secondary cabinet, shelf D",,
+RI-C,24,1798.8,P,shelf D is bottom right?,YNQ,Confirm Object by Location: Spatial
+RI-C,24,1801.392,C,yes,,
+RI-C,24,1843.8,P,"do I need to close any of the shelves, lockers or crates?",YNQ,Query: Goal-Related
+RI-C,24,1849.098,C,"nope, you are finished",,

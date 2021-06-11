@@ -1,0 +1,94 @@
+Condition,ID,Time,Speaker,Utterance,Question Form,Question Type
+CI-C,19,37.11925,C,Keep in mind that I can’t see your screen so you will have to keep me updated on your progress.,,
+CI-C,19,47.49507,C,Move to the primary cabinet,,
+CI-C,19,70.86414,P,i am there,Statement,
+CI-C,19,75.98747,C,Pick up the tesla capacitor from shelf A,,
+CI-C,19,83.82413,P,done,Statement,
+CI-C,19,95.16841,C,Move to the secondary cabinet,,
+CI-C,19,162.2441,P,ok,Statement,
+CI-C,19,168.603,C,Place the tesla capacitor on shelf B,,
+CI-C,19,247.4899,C,Can I answer any questions for you?,,
+CI-C,19,275.5042,P,where is shelf b,WHQ,Query: Location-Related
+CI-C,19,284.6962,C,it is the top right shelf,,
+CI-C,19,303.1641,P,ok done,Statement,
+CI-C,19,315.1303,C,great,,
+CI-C,19,316.2454,C,Move to the primary cabinet,,
+CI-C,19,330.3641,P,ok done,Statement,
+CI-C,19,347.7422,C,Pick up the temporal emitter from shelf C,,
+CI-C,19,365.6441,P,what does it look like,WHQ,Query: Object Description: General
+CI-C,19,379.0909,C,Emitters are storage blocks with a pattern on the front. There are 3 of them.,,
+CI-C,19,423.2641,P,ok,Statement,
+CI-C,19,439.1674,C,Move to the secondary cabinet,,
+CI-C,19,457.0841,P,where is the secondary cabinet,WHQ,Query: Location-Related
+CI-C,19,466.3124,C,its the one under the C25 lettering,,
+CI-C,19,494.7041,P,where is the primary cabinet,WHQ,Query: Location-Related
+CI-C,19,505.7265,C,its the cabinet near x99,,
+CI-C,19,588.9241,P,ok i am at secondary cabinet,Statement,
+CI-C,19,595.4243,C,Place the temporal emitter on shelf D,,
+CI-C,19,604.2841,P,which shelf is d,WHQ,Query: Object Identification
+CI-C,19,622.2825,C,its the bottom right one,,
+CI-C,19,633.1441,P,done,Statement,
+CI-C,19,646.4386,C,great,,
+CI-C,19,647.9279,C,"The megaband module goes in locker Z, top shelf",,
+CI-C,19,666.7441,P,where is megaband module,WHQ,Query: Location-Related
+CI-C,19,675.9745,C,"I am not sure, you will have to look around for it",,
+CI-C,19,690.9641,P,what is megaband module,WHQ,Query: Object Identification
+CI-C,19,698.8229,C,Modules are scanning tools with a trigger and glowing lines in the front. There are 3 of them.,,
+CI-C,19,713.1041,P,where is locker z,WHQ,Query: Location-Related
+CI-C,19,726.3699,C,locker z is the red locker,,
+CI-C,19,771.9641,P,locker does not open,Statement,
+CI-C,19,777.3631,C,"To open a locker, use the nearby panel. Insert the bypass and flip the switch to the On position ",,
+CI-C,19,804.6241,P,where is the bypass,WHQ,Query: Location-Related
+CI-C,19,811.3199,C,The bypass is a small block that should be near the lockers. It goes in the panel,,
+CI-C,19,881.7018,C,You have to insert it on the panel,,
+CI-C,19,989.2027,C,To open locan I answer any questions for you?,,
+CI-C,19,1004.384,P,ok i inserted it but still wont open,Statement,
+CI-C,19,1007.42,C,"To open locker Z, move the nozzle to red and press the red button",,
+CI-C,19,1185.85,C,Can I answer any questions for you?,,
+CI-C,19,1195.044,P,cant find the megaband,Statement,
+CI-C,19,1212.951,C,Please ask a more specific question so that I can understand your source of confusion.,,
+CI-C,19,1221.464,P,where is the megaband module,WHQ,Query: Location-Related
+CI-C,19,1242.99,C,"I do not know where it was left, but you can ask me questions about its appearance",,
+CI-C,19,1307.064,P,done,Statement,
+CI-C,19,1314.776,C,great,,
+CI-C,19,1315.791,C,"The optimized synthesizer goes in the primary cabinet, shelf B",,
+CI-C,19,1327.664,P,what does it look like,WHQ,Query: Object Description: General
+CI-C,19,1340.132,C,Synthesizers are measurement tools with a number display and dial. There are 3 of them.,,
+CI-C,19,1362.724,P,which is the primary cabinet,WHQ,Query: Object Identification
+CI-C,19,1373.82,C,its the one near x99,,
+CI-C,19,1384.084,P,which is shelf,,
+CI-C,19,1392.128,C,shelf B is the top right one,,
+CI-C,19,1411.704,P,it is locked,Statement,
+CI-C,19,1422.506,C,"To open the primary cabinet, arrange the keycards in the right order on the panel. There is a different order depending on which side you would like to open. ",,
+CI-C,19,1442.884,P,what order for b,WHQ,Query: Request Teaching: Target
+CI-C,19,1450.731,C,"The keycard order for the right cabinet door is: blue, brown, gray. Then press the red button. ",,
+CI-C,19,1482.744,P,done,Statement,
+CI-C,19,1490.225,C,great,,
+CI-C,19,1502.845,C,almost done,,
+CI-C,19,1504.492,C,Move to Crate 2,,
+CI-C,19,1516.964,P,where is crate 2,WHQ,Query: Location-Related
+CI-C,19,1547.162,C,it's the middle crate in a set of 3,,
+CI-C,19,1554.004,P,done,Statement,
+CI-C,19,1556.806,C,Pick up the sonic optimizer from Crate 2,,
+CI-C,19,1569.984,P,how do i open crate 2,WHQ,Query: Request Teaching: Target
+CI-C,19,1572.352,C,"To open a crate, put in the access code on the nearby keypad",,
+CI-C,19,1576.943,C,The code for crate 2 is 5678,,
+CI-C,19,1604.684,P,done,Statement,
+CI-C,19,1605.823,C,Move to the secondary cabinet,,
+CI-C,19,1623.644,P,done,Statement,
+CI-C,19,1625.992,C,Place the sonic optimizer on shelf A,,
+CI-C,19,1636.224,P,which is shelf a,WHQ,Query: Object Identification
+CI-C,19,1640.046,C,top left,,
+CI-C,19,1738.344,P,WHAT DOES THE SONIC OPTIMIZER LOOK LIKE,WHQ,Query: Object Description: General
+CI-C,19,1752.057,C,Optimizers are motion trackers with a trigger and a keypad. There are 3 of them.,,
+CI-C,19,1792.164,P,done,Statement,
+CI-C,19,1801.272,C,last one,,
+CI-C,19,1804.203,C,"The mechano calibrator goes in locker Y, bottom shelf",,
+CI-C,19,1818.424,P,what is mechano calibrator,WHQ,Query: Object Identification
+CI-C,19,1829.7,C,Calibrators are tube-like coils used for connecting electrical components. There are 3 of them.,,
+CI-C,19,1875.624,P,where is locker y,WHQ,Query: Location-Related
+CI-C,19,1881.842,C,its the grey locker,,
+CI-C,19,1895.984,P,how do i open the grey locker,WHQ,Query: Request Teaching: Target
+CI-C,19,1903.184,P,how do i open the grey locker,,
+CI-C,19,1905.323,C,"To open locker Y, move the nozzle to gray and press the gray button",,
+CI-C,19,1974.164,P,done,Statement,

@@ -1,0 +1,110 @@
+Condition,ID,Time,Speaker,Utterance,Question Form,Question Type
+RI-B,8,24.15,C,You'll need to locate and put away 6 different objects. I can help you by answering any questions you might have. Let's begin. ,,
+RI-B,8,44.76,P,How Do I know what items I should start with? ,WHQ,Query: Request Teaching: General
+RI-B,8,54.97,C,You can ask me questions and I will help,,
+RI-B,8,104.99,P,Which item do I need first? ,WHQ,Query: Goal-Related
+RI-B,8,109.67,C,The megaband module goes in in locker Z. top shelf ,,
+RI-B,8,148.56,P,What is the megaband module? ,WHQ,Query: Object Identification
+RI-B,8,154.05,C,Modules are scanning tools with a trigger and glowing lines in the front. There are 3 of them. ,,
+RI-B,8,314.06,P,Is that correct? ,YNQ,Confirm Action: General
+RI-B,8,325.00,C,Sorry. I can't see your screen to confirm that ,,
+RI-B,8,337.28,P,IS locker Z the yellow locker? ,YNQ,Confirm Object by Feature: Color
+RI-B,8,344.54,C,Locker Z is red ,,
+RI-B,8,290.17,P,Locker Z is locked ,Statement,
+RI-B,8,404.47,C,"To open a locker, use the nearby panel. insert the bypass and flip the switch to the  ON position ",,
+RI-B,8,520.34,P,Not working ,Statement,
+RI-B,8,526.28,P,I tried the buttons on the panel too,Statement,
+RI-B,8,530.53,C,Make sure to insert the bypass,,
+RI-B,8,608.60,P,What is the bypass? ,WHQ,Query: Object Identification
+RI-B,8,612.39,C,The bypass is a small block that should be near the lockers. ,,
+RI-B,8,680.48,P,got it ,Statement,
+RI-B,8,683.77,C,Great ,,
+RI-B,8,743.60,P,Looks like the red module is already there... ,Statement,
+RI-B,8,843.60,P,maybe that was not the module. ,Statement,
+RI-B,8,889.3777,P,"Okay, which module needs to be placed there?",WHQ,Query: Goal-Related
+RI-B,8,919.7777,P,"triangle, circle, or square?",AQ,Confirm Object by Feature: Symbol
+RI-B,8,930.3905,C,It has a square symbol on it,,
+RI-B,8,935.4377,P,thank you,Statement,
+RI-B,8,955.2577,P,done,Statement,
+RI-B,8,959.692,C,Great,,
+RI-B,8,960.9578,P,What is next?,WHQ,Query: Goal-Related
+RI-B,8,974.0554,C,Move to the Delta platform ,,
+RI-B,8,1027.538,P,I see C X and Z,Statement,
+RI-B,8,1068.673,C,The delta platform is under Z,,
+RI-B,8,1086.998,P,Okay,Statement,
+RI-B,8,1100.483,C,Pick up the optimized synthesizer,,
+RI-B,8,1107.278,P,Okay,Statement,
+RI-B,8,1143.815,C,Move to the primary cabinet,,
+RI-B,8,1143.818,P,What is next?,WHQ,Query: Goal-Related
+RI-B,8,1155.898,P,Where is that?,WHQ,Query: Location-Related
+RI-B,8,1165.984,C,The primary cabinet has light grey doors,,
+RI-B,8,1187.278,P,In section X?,YNQ,Confirm Object by Location: Landmark
+RI-B,8,1196.868,C,Correct,,
+RI-B,8,1217.818,P,Ok I am here,Statement,
+RI-B,8,1227.052,C,Place the optimized synthesizer on shelf B,,
+RI-B,8,1252.158,P,How do I open the shelf,WHQ,Query: Request Teaching: Target
+RI-B,8,1265.036,C,"To open the primary cabinet, arrange the keycards in the right order on the panel.",,
+RI-B,8,1272.478,C,"The keycard order for the right cabinet door is: blue, brown, gray. Then press the red button. ",,
+RI-B,8,1294.938,P,Okaydone,Statement,
+RI-B,8,1316.478,P,What is next?,WHQ,Query: Goal-Related
+RI-B,8,1327.837,C,Great,,
+RI-B,8,1329.366,C,Move to Crate 2,,
+RI-B,8,1344.518,P,crate 2?,WHQ,Query: Object Identification
+RI-B,8,1352.538,P,Where is that?,WHQ,Query: Location-Related
+RI-B,8,1362.346,C,It is the middle crate in a set of 3,,
+RI-B,8,1387.438,P,How do we open that?,WHQ,Query: Request Teaching: Target
+RI-B,8,1402.24,C,"To open a crate, put in the access code on the nearby keypad",,
+RI-B,8,1408.249,C,The code for crate 2 is 5678,,
+RI-B,8,1427.318,P,Ok,Statement,
+RI-B,8,1430.354,C,Move to the secondary cabinet,,
+RI-B,8,1446.658,P,What is this called?,WHQ,Query: Object Identification
+RI-B,8,1455.687,C,That's the sonic optimizer,,
+RI-B,8,1471.278,P,Thank you,Statement,
+RI-B,8,1474.258,P,Thank you,,
+RI-B,8,1496.738,P,Where is secondary cabinent?,WHQ,Query: Location-Related
+RI-B,8,1506.853,C,It is the one with brown doors,,
+RI-B,8,1514.718,P,Ok,Statement,
+RI-B,8,1521.413,C,Place the sonic optimizer on shelf A ,,
+RI-B,8,1558.998,P,done,Statement,
+RI-B,8,1565.852,C,Great,,
+RI-B,8,1609.558,P,What is next?,WHQ,Query: Goal-Related
+RI-B,8,1615.588,C,Move to Crate 3,,
+RI-B,8,1630.438,P,code?,WHQ,Query: Request Teaching: Target
+RI-B,8,1633.222,C,The code for crate 3 is 2580,,
+RI-B,8,1644.913,C,Pick up the mechano calibrator from Crate 3 ,,
+RI-B,8,1647.598,P,What is that called?,WHQ,Query: Object Identification
+RI-B,8,1664.665,C,Mechano calibrator,,
+RI-B,8,1681.787,C,Move to locker Y,,
+RI-B,8,1722.518,P,I assume that is the grey one?,Statement,Confirm Object by Feature: Color
+RI-B,8,1726.835,C,Correct,,
+RI-B,8,1754.298,P,Okay.  On second shelf?,Statement,
+RI-B,8,1757.106,C,Place the mechano calibrator on the bottom shelf,,
+RI-B,8,1770.078,P,done.  nexy?,Statement,
+RI-B,8,1775.943,C,"Great, almost done",,
+RI-B,8,1777.621,C,"The tesla capacitor goes in the secondary cabinet, shelf B",,
+RI-B,8,1803.478,P,What does that look like and what color?,WHQ,Query: Object Description: General
+RI-B,8,1817.357,C,Capacitors are cylinder-shaped storage containers.,,
+RI-B,8,1823.74,C,The tesla capacitor is green,,
+RI-B,8,1878.678,P,Do you know how to open the primary cabinent big door?,WHQ,Query: Request Teaching: Target
+RI-B,8,1882.434,C,"The keycard order for the left cabinet door is: red, blue, brown. Then press the red button. ",,
+RI-B,8,1937.358,P,not working,Statement,
+RI-B,8,1963.606,C,"You tried red, blue, brown in that order?",,
+RI-B,8,1972.158,P,Yes,Statement,
+RI-B,8,2002.924,C,You need to place the keycards on the bottom row,,
+RI-B,8,2018.838,P,Right.  nevermind,Statement,
+RI-B,8,2049.338,P,"Also, I got the synthensizer wrong",Statement,
+RI-B,8,2085.858,P,Ok the ,,
+RI-B,8,2112.638,P,Ok the green capasitor.  which shelf does it go on,WHQ,Query: Location-Related
+RI-B,8,2116.987,C,"The tesla capacitor goes in the secondary cabinet, shelf B",,
+RI-B,8,2144.258,P,top or bottom?,AQ,Confirm Object by Location: Spatial
+RI-B,8,2150.156,C,It's the top right shelf,,
+RI-B,8,2172.558,P,don,,
+RI-B,8,2175.818,P,done,Statement,
+RI-B,8,2178.286,C,"Great, last one",,
+RI-B,8,2179.91,C,"The temporal emitter goes in the secondary cabinet, shelf D",,
+RI-B,8,2197.978,P,what does it look like and what color?,WHQ,Query: Object Description: General
+RI-B,8,2218.904,C,Emitters are storage blocks with a pattern on the front. There are 3 of them and they are all red,,
+RI-B,8,2251.498,P,What shape am I looking for?,WHQ,Query: Object Description: Shape
+RI-B,8,2272.783,C,"It's a block, kind of square/rectangular",,
+RI-B,8,2314.498,P,done,Statement,
+RI-B,8,2322.621,C,"Great, all finished",,

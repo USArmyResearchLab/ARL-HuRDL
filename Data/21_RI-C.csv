@@ -1,0 +1,112 @@
+Condition,ID,Time,Speaker,Utterance,Question Form,Question Type
+RI-C,21,35.7,C,Intro message,,
+RI-C,21,50.5,P,ok,Statement,
+RI-C,21,69.4,C,Can I answer any questions for you?,,
+RI-C,21,85.7,P,which 6,WHQ,Query: Goal-Related
+RI-C,21,98,C,they are the following:,,
+RI-C,21,105,C,tesla capacitor,,
+RI-C,21,110,C,temporal emitter,,
+RI-C,21,116,C,megaband module,,
+RI-C,21,121,C,optimized synthesizer,,
+RI-C,21,126,C,sonic optimizer,,
+RI-C,21,132,C,mechano calibrator,,
+RI-C,21,163,P,"ok, what does the tesla capacitor look like?",WHQ,Query: Object Description: General
+RI-C,21,175,C,Capacitors are cylinder-shaped storage containers,,
+RI-C,21,236,P,do you know where it is?,YNQ,Other
+RI-C,21,251,C,"sorry, I do not. It may be locked in a container if you don't see it",,
+RI-C,21,267,P,does it have light blue ring on the top? ,YNQ,"Confirm Object by Feature: Color, Symbol"
+RI-C,21,274,C,"no, that is not it",,
+RI-C,21,300.4204,P,do you know how to open the locker with a triangle on it? ,YNQ,Query: Request Teaching: Target
+RI-C,21,321.9186,C,yes,,
+RI-C,21,323.1714,C,"To open a crate, put in the access code on the nearby keypad",,
+RI-C,21,328.403,C,The code for crate 3 is 2580,,
+RI-C,21,351.6004,P,what about crate 2 ,WHQ,Query: Request Teaching: Target
+RI-C,21,370.9361,C,The code for crate 2 is 5678,,
+RI-C,21,395.5604,P,do you think it could be in the tall lockers? ,YNQ,Other
+RI-C,21,405.4688,C,it is possible,,
+RI-C,21,415.0204,P,how do I open the tall red locker? ,WHQ,Query: Request Teaching: Target
+RI-C,21,423.0602,C,"To open a locker, use the nearby panel. Insert the bypass and flip the switch to the On position ",,
+RI-C,21,429.0317,C,"To open locker Z, move the nozzle to red and press the red button",,
+RI-C,21,481.4004,P,is the tesla ,,
+RI-C,21,495.5204,P,is the tesla capacitor pink? ,YNQ,Confirm Object by Feature: Color
+RI-C,21,500.2206,C,"no, it is green",,
+RI-C,21,575.3004,P,can I use the same bypass for the cabinet? ,WHQ,Query: Request Teaching: Target
+RI-C,21,592.4376,C,"No, the cabinet has a different opening procedure",,
+RI-C,21,601.0903,C,"To open the primary cabinet, arrange the keycards in the right order on the panel. There is a different order depending on which side you would like to open. ",,
+RI-C,21,641.8804,P,I will go with the right side ,Statement,
+RI-C,21,651.1646,C,"The keycard order for the right cabinet door is: blue, brown, gray. Then press the red button. ",,
+RI-C,21,672.4204,P,ok how about the left side ,WHQ,Query: Request Teaching: Target
+RI-C,21,675.9303,C,"The keycard order for the left cabinet door is: red, blue, brown. Then press the red button. ",,
+RI-C,21,719.3204,P,"ok, i found it. the green cylinder. where should I put it?",WHQ,Query: Location-Related
+RI-C,21,734.2799,C,Move to the secondary cabinet,,
+RI-C,21,753.1204,P,the other cabinet that looks similar? ,YNQ,Confirm Object by Feature: Comparison
+RI-C,21,758.6793,C,yes,,
+RI-C,21,771.2004,P,on the bottom shelf? ,WHQ,Query: Location-Related
+RI-C,21,777.0346,C,Place the tesla capacitor on shelf B,,
+RI-C,21,809.6604,P,is that the lowest one? ,YNQ,Confirm Object by Location: Spatial
+RI-C,21,822.1949,C,it's the top right shelf,,
+RI-C,21,841.0204,P,where should i put the pink cylinder that is in there now? ,WHQ,Query: Location-Related
+RI-C,21,861.8793,C,that is not one of the needed items,,
+RI-C,21,902.5004,P,"alright, I put the tesla capictor in the top right. ",Statement,
+RI-C,21,906.766,C,great,,
+RI-C,21,917.8604,P,what does the temporal emitter look like? ,WHQ,Query: Object Description: General
+RI-C,21,927.2083,C,Emitters are storage blocks with a pattern on the front. There are 3 of them.,,
+RI-C,21,956.1604,P,do I need to get all 3? ,YNQ,Confirm Action: Task-Related
+RI-C,21,968.6067,C,"no, just one of them",,
+RI-C,21,1000.62,P,"alright, I have one with blue lines and a yellow square in the middle. It is a red box. Is this good? ",Statement,
+RI-C,21,1015.398,C,"it is a red box, but it has a circle on it",,
+RI-C,21,1054.02,P,ok. where should I put it? ,WHQ,Query: Location-Related
+RI-C,21,1056.638,C,Move to the secondary cabinet,,
+RI-C,21,1063.32,C,Place the temporal emitter on shelf D,,
+RI-C,21,1069.96,P,Is that bottom right? ,YNQ,Confirm Object by Location: Spatial
+RI-C,21,1073.615,C,yes,,
+RI-C,21,1111.4,P,"there is an item in D, should I move it out?",YNQ,Confirm Action: Task-Related
+RI-C,21,1118.708,C,yes,,
+RI-C,21,1134.7,P,ok. that one is done.,Statement,
+RI-C,21,1138,C,great,,
+RI-C,21,1149.84,P,megaband module is next. what does it look like? ,Statement,
+RI-C,21,1160.709,C,Modules are scanning tools with a trigger and glowing lines in the front. There are 3 of them.,,
+RI-C,21,1189.16,P,"ok, which one should I get? ",WHQ,Query: Goal-Related
+RI-C,21,1211.461,C,the megaband module is striped,,
+RI-C,21,1246.82,P,with a blue square near the top? ,YNQ,"Confirm Object by Feature: Color, Symbol"
+RI-C,21,1251.396,C,yes,,
+RI-C,21,1259.58,P,"ok, where should I put it?",WHQ,Query: Location-Related
+RI-C,21,1262.219,C,"The megaband module goes in locker Z, top shelf",,
+RI-C,21,1299.88,P,what color is Z? ,YNQ,Confirm Object by Feature: Color
+RI-C,21,1310.897,C,its the red one,,
+RI-C,21,1340.24,P,ok. done ,Statement,
+RI-C,21,1351.18,C,"great, you're almost done",,
+RI-C,21,1359.48,P,what is the next item? ,WHQ,Query: Goal-Related
+RI-C,21,1371.053,C,next is the optimized synthesizer,,
+RI-C,21,1388.3,P,what does it look like?,WHQ,Query: Object Description: General
+RI-C,21,1401.62,C,Synthesizers are measurement tools with a number display and dial. There are 3 of them.,,
+RI-C,21,1432.68,P,ok. which one should I get? ,WHQ,Query: Goal-Related
+RI-C,21,1453.851,C,it is blue,,
+RI-C,21,1467.36,P,alright. where does it go?,WHQ,Query: Location-Related
+RI-C,21,1480.793,C,"The optimized synthesizer goes in the primary cabinet, shelf B",,
+RI-C,21,1492.66,P,is that top right? ,YNQ,Confirm Object by Location: Spatial
+RI-C,21,1506.729,C,yes,,
+RI-C,21,1521.66,P,ok. done.,Statement,
+RI-C,21,1524.78,P,next? ,WHQ,Query: Goal-Related
+RI-C,21,1532.172,C,Move to Crate 2,,
+RI-C,21,1544.6,P,ok,Statement,
+RI-C,21,1546.362,C,Pick up the sonic optimizer from Crate 2,,
+RI-C,21,1558.26,P,ok,Statement,
+RI-C,21,1560.2,C,Move to the secondary cabinet,,
+RI-C,21,1582.932,C,Place the sonic optimizer on shelf A,,
+RI-C,21,1611.52,P,does it have a Plus on it? ,YNQ,Confirm Object by Feature: Symbol
+RI-C,21,1615.141,C,yes,,
+RI-C,21,1640.68,P,ok. done.,Statement,
+RI-C,21,1656.498,C,great,,
+RI-C,21,1667.3,P,last one? ,WHQ,Query: Goal-Related
+RI-C,21,1676.459,C,"The mechano calibrator goes in locker Y, bottom shelf",,
+RI-C,21,1693.5,P,what does it look like?,WHQ,Query: Object Description: General
+RI-C,21,1702.922,C,Calibrators are tube-like coils used for connecting electrical components. There are 3 of them.,,
+RI-C,21,1739.82,P,what color? ,WHQ,Query: Object Description: Color
+RI-C,21,1746.734,C,it is a white/camouflage color,,
+RI-C,21,1780.62,P,ok. location?,Statement,
+RI-C,21,1787.763,C,"The mechano calibrator goes in locker Y, bottom shelf",,
+RI-C,21,1789.24,P,gray locker? ,YNQ,Confirm Object by Feature: Color
+RI-C,21,1792.229,C,yes,,
+RI-C,21,1797.74,P,alright. done.,Statement,
+RI-C,21,1806.667,C,great,,

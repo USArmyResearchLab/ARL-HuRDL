@@ -1,0 +1,121 @@
+Condition,ID,Time,Speaker,Utterance,Question Form,Question Type
+RI-B,17,22.13,C,Keep in mind that I can't see your screen so you will have to keep me updated on your progress,,
+RI-B,17,53.47,C,Please ask me any questions you have. I'm here to help,,
+RI-B,17,53.48,P,ok ,Statement,
+RI-B,17,78.92,P,what do i do first ,WHQ,Query: Goal-Related
+RI-B,17,86.47,C,"The megaband module goes in locker Z, top shelf",,
+RI-B,17,115.80,P,what does it look like? ,WHQ,Query: Object Description: General
+RI-B,17,128.55,C,Modules are scanning tools with a trigger and glowing lines in the front. there are 3 of them. ,,
+RI-B,17,184.90,P,which one is the megaband module,WHQ,Query: Object Identification
+RI-B,17,199.78,C,the megaband module has stripes,,
+RI-B,17,242.80,P,I have the megaband module ,Statement,
+RI-B,17,346.63,C,great ,,
+RI-B,17,247.80,P,where is locker z? ,WHQ,Query: Location-Related
+RI-B,17,293.27,C,its the red locker ,,
+RI-B,17,325.50,P,the red locker is closed ,Statement,
+RI-B,17,345.91,C,"To open a locker, use the nearby panel. Insert the bypass and flip the switch to the On position",,
+RI-B,17,401.46,P,where is the bypass ,WHQ,Query: Location-Related
+RI-B,17,410.78,C,the bypass is a small block that should be near the lockers. It goes in the panel,,
+RI-B,17,488.68,P,I've placed the megaband module in the top shelf ,Statement,
+RI-B,17,496.23,C,great ,,
+RI-B,17,530.18,P,what is next? ,WHQ,Query: Goal-Related
+RI-B,17,535.48,C,Move to the Delta platform,,
+RI-B,17,564.84,P,where is the platform? ,WHQ,Query: Location-Related
+RI-B,17,579.70,C,its the middle one in a set of 3 ,,
+RI-B,17,610.38,P,ok ,Statement,
+RI-B,17,616.66,C,Pick up the optimized synthesizer ,,
+RI-B,17,638.76,P,it is closed ,Statement,
+RI-B,17,666.81,C,The platforms are not closed ,,
+RI-B,17,706.4767,P,what does the optimized synthesizer look like?,WHQ,Query: Object Description: General
+RI-B,17,718.8078,C,Synthesizers are measurement tools with a number display and dial. There are 3 of them.,,
+RI-B,17,738.7567,P,what color is it?,WHQ,Query: Object Description: Color
+RI-B,17,742.7273,C,it is blue,,
+RI-B,17,796.6768,P,I have the item,Statement,
+RI-B,17,799.4469,C,Move to the primary cabinet,,
+RI-B,17,823.4967,P,which is the primary cabinet?,WHQ,Query: Object Identification
+RI-B,17,848.9953,C,it is the cabinet with grey doors,,
+RI-B,17,867.0167,P,i'm at the cabinet,Statement,
+RI-B,17,892.3498,C,Place the optimized synthesizer on shelf B,,
+RI-B,17,922.0167,P,bottom or top?,AQ,Confirm Object by Location: Spatial
+RI-B,17,929.2742,C,shelf b is the rop right shelf,,
+RI-B,17,1052.877,P,shelf b is closed,Statement,
+RI-B,17,1067.851,C,"To open the primary cabinet, arrange the keycards in the right order on the panel. There is a different order depending on which side you would like to open. ",,
+RI-B,17,1121.117,P,I've placed the item on shelf b,Statement,
+RI-B,17,1133.103,C,great,,
+RI-B,17,1142.897,P,What is next?,WHQ,Query: Goal-Related
+RI-B,17,1147.996,C,Move to Crate 2,,
+RI-B,17,1175.097,P,where is crate 2?,WHQ,Query: Location-Related
+RI-B,17,1199.13,C,it's the middle one ina  set of 3,,
+RI-B,17,1211.697,P,I'm there,Statement,
+RI-B,17,1221.73,C,Pick up the sonic optimizer from Crate 2,,
+RI-B,17,1236.777,P,it is closed,Statement,
+RI-B,17,1248.835,C,"To open a crate, put in the access code on the nearby keypad",,
+RI-B,17,1312.417,P,what is the access code?,WHQ,Query: Request Teaching: Target
+RI-B,17,1335.784,C,The code for crate 2 is 5678,,
+RI-B,17,1379.917,P,I have the item,Statement,
+RI-B,17,1390.497,C,great,,
+RI-B,17,1406.837,P,where does the item go?,WHQ,Query: Location-Related
+RI-B,17,1420.034,C,Move to the secondary cabinet,,
+RI-B,17,1446.237,P,what is the secondary cabinet?,WHQ,Query: Object Identification
+RI-B,17,1454.021,C,it's the cabinet with brown doors,,
+RI-B,17,1469.337,P,i'm there,Statement,
+RI-B,17,1483.308,C,ok,,
+RI-B,17,1506.994,C,Can I answer any questions for you?,,
+RI-B,17,1513.437,P,which shelf does the item go on,WHQ,Query: Location-Related
+RI-B,17,1516.79,C,Place the sonic optimizer on shelf A ,,
+RI-B,17,1528.237,P,which is shelf a?,WHQ,Query: Object Identification
+RI-B,17,1534.21,C,its the top left one,,
+RI-B,17,1569.617,P,It is done,Statement,
+RI-B,17,1575.293,C,"great, you're almost done",,
+RI-B,17,1595.557,P,"ok great, what is next?",Statement,
+RI-B,17,1602.539,C,Move to Crate 3,,
+RI-B,17,1633.677,P,i'm at crate 3,Statement,
+RI-B,17,1637.072,C,ok,,
+RI-B,17,1647.897,P,it is closed,Statement,
+RI-B,17,1654.697,P,what is the code,WHQ,Query: Request Teaching: Target
+RI-B,17,1657.221,C,The code for crate 3 is 2580,,
+RI-B,17,1678.237,P,i've opened the crate,Statement,
+RI-B,17,1691.858,C,Pick up the mechano calibrator from Crate 3,,
+RI-B,17,1762.957,P,I have the item ,Statement,
+RI-B,17,1768.419,C,Can I answer any questions for you?,,
+RI-B,17,1781.237,P,What do I do with the item?,WHQ,Query: Goal-Related
+RI-B,17,1784.794,C,Move to locker Y,,
+RI-B,17,1795.017,P,where is locker y?,WHQ,Query: Location-Related
+RI-B,17,1800.409,C,locker y is the grey lcoker,,
+RI-B,17,1833.097,P,I'm at the grey locker,Statement,
+RI-B,17,1849.217,P,what next?,WHQ,Query: Goal-Related
+RI-B,17,1853.532,C,Place the mechano calibrator on the bottom shelf,,
+RI-B,17,1870.497,P,ok done,Statement,
+RI-B,17,1892.695,C,great,,
+RI-B,17,1900.537,P,whats next?,WHQ,Query: Goal-Related
+RI-B,17,1905.835,C,"The tesla capacitor goes in the secondary cabinet, shelf B",,
+RI-B,17,1923.317,P,what does it look like?,WHQ,Query: Object Description: General
+RI-B,17,1939.623,C,Capacitors are cylinder-shaped storage containers.,,
+RI-B,17,1960.837,P,where is it?,WHQ,Query: Location-Related
+RI-B,17,1984.411,C,"I am not sure, if you don't see it, it may be locked in a container",,
+RI-B,17,1999.157,P,I have the item,Statement,
+RI-B,17,2042.478,C,great,,
+RI-B,17,2043.517,P,where is shelf b,WHQ,Query: Location-Related
+RI-B,17,2062.564,C,shelf b is the top right shelf,,
+RI-B,17,2084.097,P,what color is the capacitor?,WHQ,Query: Object Description: Color
+RI-B,17,2090.372,C,it is green,,
+RI-B,17,2177.265,C,Can I answer any questions for you?,,
+RI-B,17,2178.117,P,what color is the secondary cabinet?,WHQ,Query: Object Description: Color
+RI-B,17,2184.023,C,it is the one with brown doors,,
+RI-B,17,2226.477,P,ok i've placed it on the shelf,Statement,
+RI-B,17,2231.073,C,ok great,,
+RI-B,17,2234.616,C,one more item to go,,
+RI-B,17,2239.317,P,ok,Statement,
+RI-B,17,2263.917,P,whats next?,WHQ,Query: Goal-Related
+RI-B,17,2266.827,C,"The temporal emitter goes in the secondary cabinet, shelf D",,
+RI-B,17,2288.977,P,what does the emitter look like,WHQ,Query: Object Description: General
+RI-B,17,2296.395,C,Emitters are storage blocks with a pattern on the front. There are 3 of them.,,
+RI-B,17,2326.777,P,what is the pattern?,WHQ,Query: Object Description: Pattern
+RI-B,17,2344.232,C,it has a circle on it,,
+RI-B,17,2390.677,P,I have th emitter,Statement,
+RI-B,17,2395.781,C,great,,
+RI-B,17,2437.73,C,Can I answer any questions for you?,,
+RI-B,17,2438.857,P,where is shelf d,WHQ,Query: Location-Related
+RI-B,17,2445.285,C,shelf d is the bottom right one,,
+RI-B,17,2478.777,P,ok I've placed the item,Statement,
+RI-B,17,2489.915,C,"great, you are done",,

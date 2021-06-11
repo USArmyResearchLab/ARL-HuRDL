@@ -1,0 +1,115 @@
+Condition,ID,Time,Speaker,Utterance,Question Form,Question Type
+CI-C,15,14.06,C,OK ,,
+CI-C,15,15.13,C,You'll need to locate and put away 6 different objects. I can help you by answering any questions you might have. Let's begin. ,,
+CI-C,15,30.88,C,Move to the primary cabinet ,,
+CI-C,15,69.11,P,ok ,Statement,
+CI-C,15,81.42,C,"OK, by the way I can't see your screen so just let me know when you do stuff ",,
+CI-C,15,88.56,C,Pick up the tesla capacitor from shelf A ,,
+CI-C,15,110.97,P,is it gray with black polka dots? ,YNQ,"Confirm Object by Feature: Color, Pattern"
+CI-C,15,128.45,C,"No, it is green ",,
+CI-C,15,196.79,C,Can I answer any questions for you?,,
+CI-C,15,269.44,C,Feel free to ask me any questions ,,
+CI-C,15,288.19,P,I am looking for it. I do not see anything green in the main cabinet ,Statement,
+CI-C,15,295.53,C,Perhaps you are at the wrong cabinet ,,
+CI-C,15,366.31,P,I cannot open this cabinet ,Statement,
+CI-C,15,370.13,C,"To open the primary cabinet, arrange the keycards in the right order on the panel. There is a different order depending on which side you would like to open.",,
+CI-C,15,449.88,C,Can I answer any questions for you? ,,
+CI-C,15,529.95,P,do you know what color key cards I need?,YNQ,Other
+CI-C,15,535.04,C,yes,,
+CI-C,15,539.71,C,"The keycard order for the left cabinet door is: red, blue, brown. Then press the red button. ",,
+CI-C,15,544.12,C,"The keycard order for the right cabinet door is: blue, brown, gray. Then press the red button. ",,
+CI-C,15,593.76,C,Got it?,,
+CI-C,15,623.47,P,"yes, I have it now ",Statement,
+CI-C,15,638.15,C,great,,
+CI-C,15,629.76,C,Move to the secondary cabinet ,,
+CI-C,15,666.35,P,is there a certain shelf or is the bottom shelf ok? ,YNQ,Confirm Object by Location: Spatial
+CI-C,15,673.30,C,Place the tesla capacitor on shelf B. ,,
+CI-C,15,689.15,P,ok done ,Statement,
+CI-C,15,703.09,C,great ,,
+CI-C,15,704.7872,C,Move to the primary cabinet,,
+CI-C,15,754.8928,P,ok,Statement,
+CI-C,15,756.2002,C,Pick up the temporal emitter from shelf C,,
+CI-C,15,791.3328,P,is shelf c on the bottom right?,YNQ,Confirm Object by Location: Spatial
+CI-C,15,795.2529,C,bottom left,,
+CI-C,15,804.3128,P,ok,Statement,
+CI-C,15,807.2584,C,Move to the secondary cabinet,,
+CI-C,15,832.7543,C,Place the temporal emitter on shelf D,,
+CI-C,15,917.3328,P,what shlef,WHQ,Query: Object Identification
+CI-C,15,927.8229,C,bottom right,,
+CI-C,15,967.5961,C,got it?,,
+CI-C,15,1003.253,P,yes but there was something there. where should I place the thing that was there?,Statement,
+CI-C,15,1019.673,C,that is not needed for the task,,
+CI-C,15,1026.493,P,ok,Statement,
+CI-C,15,1032.65,C,ok next,,
+CI-C,15,1033.946,C,"The megaband module goes in locker Z, top shelf",,
+CI-C,15,1050.833,P,where is that?,WHQ,Query: Location-Related
+CI-C,15,1057.913,P,what color is it,WHQ,Query: Object Description: Color
+CI-C,15,1079.266,C,All modules are the same color - light grey with blue lines,,
+CI-C,15,1089.116,C,Please look around as I do not know where it is,,
+CI-C,15,1164.493,P,what color is the locker?,WHQ,Query: Object Description: Color
+CI-C,15,1173.535,C,locker z is red,,
+CI-C,15,1213.293,P,how do I open the locker?,WHQ,Query: Request Teaching: General
+CI-C,15,1221.403,C,"To open a locker, use the nearby panel. Insert the bypass and flip the switch to the On position ",,
+CI-C,15,1227.709,C,"To open locker Z, move the switch to red and press the red button",,
+CI-C,15,1372.322,C,Can I answer any quesstions for you?,,
+CI-C,15,1402.513,P,I am trying to open the locker. The switch on the left is all the way up. does the switch on the right need to be also?,Statement,
+CI-C,15,1419.048,C,"The right switch is the On switch, so it needs to be up",,
+CI-C,15,1426.096,C,Make sure you placed the bypass,,
+CI-C,15,1473.373,P,is the bypass the left switch?,YNQ,Confirm Object by Location: Spatial
+CI-C,15,1479.609,C,The bypass is a small block that should be near the lockers. It goes in the panel,,
+CI-C,15,1590.733,P,which shelf does it go on?,WHQ,Query: Request Teaching: Target
+CI-C,15,1593.906,C,"The megaband module goes in locker Z, top shelf",,
+CI-C,15,1651.793,P,sss,,
+CI-C,15,1659.693,P,ok,Statement,
+CI-C,15,1661.062,C,"great, you are almost done",,
+CI-C,15,1664.086,C,"The optimized synthesizer goes in the primary cabinet, shelf B",,
+CI-C,15,1681.053,P,what color is it?,WHQ,Query: Object Description: Color
+CI-C,15,1685.234,C,it is blue,,
+CI-C,15,1790.293,P,ok,Statement,
+CI-C,15,1793.793,C,great,,
+CI-C,15,1798.891,C,next,,
+CI-C,15,1803.08,C,Move to Crate 2,,
+CI-C,15,1834.673,P,is that between the two cabinets?,YNQ,Confirm Object by Location: Landmark
+CI-C,15,1852.827,C,crate 2 is the middle one in a set of three crates,,
+CI-C,15,1861.513,P,to the left of the primary cabinet?,YNQ,Confirm Object by Location: Landmark
+CI-C,15,1880.122,C,"yes, but it is closer to the secondary cabinet",,
+CI-C,15,1897.493,P,ok,Statement,
+CI-C,15,1920.373,P,it has a big brown thing on it,Statement,
+CI-C,15,1935.536,C,Crate 2 should be closed unless you unlocked it,,
+CI-C,15,1952.553,P,I haven't unlocked anything,Statement,
+CI-C,15,1962.019,C,ok,,
+CI-C,15,2010.343,C,Can I answer any questions for you?,,
+CI-C,15,2028.733,P,What am I to do with crate 2?,WHQ,Query: Goal-Related
+CI-C,15,2038.608,C,Pick up the sonic optimizer from Crate 2,,
+CI-C,15,2066.513,P,what color is it?,WHQ,Query: Object Description: Color
+CI-C,15,2085.827,C,Optimizers are all the same color - brown,,
+CI-C,15,2092.913,P,ok got it,Statement,
+CI-C,15,2098.152,C,great,,
+CI-C,15,2099.753,C,Move to the secondary cabinet,,
+CI-C,15,2114.013,P,what shelf?,WHQ,Query: Object Identification
+CI-C,15,2117.459,C,Place the sonic optimizer on shelf A,,
+CI-C,15,2126.273,P,ok done,Statement,
+CI-C,15,2133.67,C,ok last one,,
+CI-C,15,2135.506,C,"The mechano calibrator goes in locker Y, bottom shelf",,
+CI-C,15,2157.733,P,do you know where it is? what color it is,WHQ,Query: Location-Related
+CI-C,15,2173.242,C,calibrators are different colors - this one is white/camouflage,,
+CI-C,15,2184.219,C,"if you don't see it, it may be locked in a container",,
+CI-C,15,2247.253,P,ok,Statement,
+CI-C,15,2265.153,P,where is shelf a,WHQ,Query: Location-Related
+CI-C,15,2280.208,C,it goes in locker y bottom shelf,,
+CI-C,15,2296.336,C,shelf a is the top left shelf of a cabinet,,
+CI-C,15,2297.173,P,what color is the locker?,WHQ,Query: Object Description: Color
+CI-C,15,2305.584,C,locker y is grey,,
+CI-C,15,2333.573,P,how do I open locker y,WHQ,Query: Request Teaching: Target
+CI-C,15,2337.575,C,"To open locker Y, move the switch to gray and press the gray button",,
+CI-C,15,2458.896,C,Can I answer any questions for you?,,
+CI-C,15,2458.973,P,I had the wrong thing because it didn't fit,Statement,
+CI-C,15,2464.541,C,ok,,
+CI-C,15,2465.233,P,do I open a crate?,YNQ,Confirm Action: Task-Related
+CI-C,15,2482.638,C,"To open a crate, put in the access code on the nearby keypad",,
+CI-C,15,2500.573,P,qq,,
+CI-C,15,2534.313,P,do you have an access code?,WHQ,Query: Request Teaching: Target
+CI-C,15,2540.749,C,The code for crate 2 is 5678,,
+CI-C,15,2545.292,C,The code for crate 3 is 2580,,
+CI-C,15,2641.933,P,ok,Statement,
+CI-C,15,2658.684,C,"great, you are finished",,

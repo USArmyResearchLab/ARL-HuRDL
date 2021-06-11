@@ -1,0 +1,105 @@
+Condition,ID,Time,Speaker,Utterance,Question Form,Question Type
+CI-B,14,33.49,C,You'll need to locate and put away 6 different objects. I can help you by answering any questions you might have. Let's begin. ,,
+CI-B,14,48.05,P,ok ,,
+CI-B,14,49.56,C,"The megaband module goes in locker Z, top shelf ",,
+CI-B,14,85.80,C,Can I help answer any questions for you? ,,
+CI-B,14,111.68,P,no just getting familiar ,Statement,
+CI-B,14,166.52,P,is this locker z? ,YNQ,Confirm Object by Location: Deictic Action
+CI-B,14,177.06,C,"Sorry I can't see your screen, try describing it for me",,
+CI-B,14,188.72,P,"green locker, near z 14",Statement,Confirm Object by Feature: Color; Confirm Object by Location: Landmark
+CI-B,14,196.33,C,locker z is red ,,
+CI-B,14,221.52,P,red locker wont open ,Statement,
+CI-B,14,237.13,C,"To open a locker, use the nearby panel. Insert the bypass and flip the switch to the On position",,
+CI-B,14,299.52,P,still wont open,Statement,
+CI-B,14,310.81,C,Make sure you inserted the bypass ,,
+CI-B,14,317.10,P,where is that? ,WHQ,Query: Location-Related
+CI-B,14,320.2504,C,The bypass is a small block that should be near the lockers. It goes in the panel,,
+CI-B,14,424.224,C,"you had it, just click the red button once",,
+CI-B,14,483.8825,P,says object too large to place,Statement,
+CI-B,14,491.2631,C,perhaps you have the wrong object,,
+CI-B,14,504.4826,P,oh i thought you were describing what i first picked up,Statement,
+CI-B,14,519.3826,P,what is the megaband module,WHQ,Query: Object Identification
+CI-B,14,529.4789,C,Modules are scanning tools with a trigger and glowing lines in the front. There are 3 of them.,,
+CI-B,14,561.8625,P,and which one goes in locker z?,WHQ,Query: Goal-Related
+CI-B,14,569.0546,C,the megaband module,,
+CI-B,14,585.7626,P,which is the megaband module,WHQ,Query: Object Identification
+CI-B,14,594.762,C,it is striped,,
+CI-B,14,602.2826,P,got it,Statement,
+CI-B,14,645.0656,C,great,,
+CI-B,14,651.1663,C,Move to the Delta platform ,,
+CI-B,14,702.1825,P,where is that?,WHQ,Query: Location-Related
+CI-B,14,709.1143,C,It's the middle one in a set of 3,,
+CI-B,14,727.3625,P,near which number area?,WHQ,Query: Location-Related
+CI-B,14,733.1982,C,x99,,
+CI-B,14,745.574,C,Pick up the optimized synthesizer,,
+CI-B,14,756.4225,P,is that the middle blue object?,YNQ,Confirm Object by Location: Spatial; Confirm Object by Feature: Color
+CI-B,14,760.6,C,yes it is blue,,
+CI-B,14,767.1426,P,got it,Statement,
+CI-B,14,768.6019,C,Move to the primary cabinet,,
+CI-B,14,785.1626,P,which is the primary cabinet?,WHQ,Query: Object Identification
+CI-B,14,793.3171,C,it is the one with grey doors,,
+CI-B,14,807.1226,P,ok ,Statement,
+CI-B,14,809.5477,C,Place the optimized synthesizer on shelf B,,
+CI-B,14,811.9425,P,there now,Statement,
+CI-B,14,848.3826,P,how do i open the cabinet?,WHQ,Query: Request Teaching: General
+CI-B,14,852.5101,C,"To open the primary cabinet, arrange the keycards in the right order on the panel. There is a different order depending on which side you would like to open. ",,
+CI-B,14,888.8826,P,which is the order for shelf b,WHQ,Query: Request Teaching: Target
+CI-B,14,896.7498,C,"The keycard order for the right cabinet door is: blue, brown, gray. Then press the red button. ",,
+CI-B,14,926.5625,P,done,Statement,
+CI-B,14,929.8313,C,great,,
+CI-B,14,936.3359,C,Move to Crate 2,,
+CI-B,14,953.1825,P,where is that / by which number?,WHQ,Query: Location-Related
+CI-B,14,966.3788,C,its between c and z,,
+CI-B,14,994.5825,P,three grey objects with vertical stripes?,YNQ,"Confirm Object by Feature: Color, Pattern"
+CI-B,14,1001.485,C,yes those are the crates,,
+CI-B,14,1006.682,P,ok. now what?,Statement,
+CI-B,14,1011.152,C,Pick up the sonic optimizer from Crate 2,,
+CI-B,14,1020.542,P,how do i open crate 2?,WHQ,Query: Request Teaching: Target
+CI-B,14,1025.315,C,"To open a crate, put in the access code on the nearby keypad",,
+CI-B,14,1029.808,C,The code for crate 2 is 5678,,
+CI-B,14,1054.443,P,picked up,Statement,
+CI-B,14,1059.701,C,Move to the secondary cabinet,,
+CI-B,14,1079.943,P,is that under c25?,YNQ,Confirm Object by Location: Landmark
+CI-B,14,1081.699,C,yes,,
+CI-B,14,1085.123,P,ok there,Statement,
+CI-B,14,1087.302,C,Place the sonic optimizer on shelf A ,,
+CI-B,14,1093.022,P,done,Statement,
+CI-B,14,1101.587,C,"great, almost done",,
+CI-B,14,1106.048,C,Move to Crate 3,,
+CI-B,14,1117.902,P,code for crate 3?,WHQ,Query: Request Teaching: Target
+CI-B,14,1125.331,C,The code for crate 3 is 2580,,
+CI-B,14,1134.405,C,Pick up the mechano calibrator from Crate 3,,
+CI-B,14,1139.382,P,next?,WHQ,Query: Goal-Related
+CI-B,14,1140.967,C,Move to locker Y,,
+CI-B,14,1158.843,P,which color is that?,WHQ,Query: Object Description: Color
+CI-B,14,1162.573,C,grey,,
+CI-B,14,1170.922,P,how do i open?,WHQ,Query: Request Teaching: Target
+CI-B,14,1181.441,C,"To open locker Y, move the switch to gray and press the gray button",,
+CI-B,14,1199.703,P,done,Statement,
+CI-B,14,1200.971,C,Place the mechano calibrator on the bottom shelf,,
+CI-B,14,1206.642,P,done,Statement,
+CI-B,14,1212.903,C,great,,
+CI-B,14,1214.311,C,"The tesla capacitor goes in the secondary cabinet, shelf B",,
+CI-B,14,1226.603,P,which object is that?,WHQ,Query: Object Identification
+CI-B,14,1230.519,C,Capacitors are cylinder-shaped storage containers.,,
+CI-B,14,1259.703,P,what color?,WHQ,Query: Object Description: Color
+CI-B,14,1267.869,C,they are all different colors,,
+CI-B,14,1279.382,P,where is the tesla capacitor?,WHQ,Query: Location-Related
+CI-B,14,1290.409,C,"I am not sure. if you do not see it, it may be locked in a container",,
+CI-B,14,1306.662,P,i see it open in container a,Statement,
+CI-B,14,1312.329,C,ok,,
+CI-B,14,1336.703,P,done,Statement,
+CI-B,14,1353.165,C,great,,
+CI-B,14,1356.369,C,"The temporal emitter goes in the secondary cabinet, shelf D",,
+CI-B,14,1382.282,P,what does the temp emitter look like? what color?,WHQ,Query: Object Description: General
+CI-B,14,1394.65,C,"Emitters are storage blocks with a pattern on the front. There are 3 of them, and they are all the same color - red",,
+CI-B,14,1412.262,P,which do i pick up?,WHQ,Query: Goal-Related
+CI-B,14,1433.036,C,I cannot see your screen so please rephrase your question,,
+CI-B,14,1450.022,P,there are multiple size emitters,Statement,
+CI-B,14,1454.502,P,which do i pick up,WHQ,Query: Goal-Related
+CI-B,14,1457.762,P,and from where?,WHQ,Query: Location-Related
+CI-B,14,1457.997,C,it is the smaller one,,
+CI-B,14,1479.083,P,how do i get to shelf d?,WHQ,Query: Request Teaching: Target
+CI-B,14,1488.547,C,that's the bottom right one,,
+CI-B,14,1534.682,P,done,Statement,
+CI-B,14,1539.257,C,great you are done!,,
