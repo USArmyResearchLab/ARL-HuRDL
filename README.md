@@ -4,7 +4,7 @@ ARL HuRDL (Human Robot Dialogue Learning) is a labeled corpus of 22 human-human 
 
 The latest version of the dataset can be found [here](https://github.com/USArmyResearchLab/ARL-HuRDL/). 
 <!--The corresponding video files can be found [here](link to Dryad)-->
-<!--The corresponding publication with detailed corpus statistics can be found [here](link to Sigdial short paper).-->
+The corresponding publication with detailed corpus statistics can be found [here](https://arxiv.org/abs/2106.06504).
 
 ## Table of Contents
 
