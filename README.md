@@ -1,6 +1,6 @@
 # ARL HuRDL Corpus 1.0.0
 
-ARL HuRDL (Human Robot Dialogue Learning) is a labeled corpus of 22 human-human dialogues in a situated reference resolution task. In the task, participants played the role of a robot and communicated with a live, remote experimenter (called the Commander) through text-based messaging. The experiment was conducted live on Amazon Mechanical Turk.
+ARL HuRDL (Human Robot Dialogue Learning) is a labeled corpus of 22 human-human dialogues in a situated reference resolution task. In the task, participants played the role of a robot in a Unity3D environment and communicated with a live, remote experimenter (called the Commander) through text-based messaging. The experiment was conducted live on Amazon Mechanical Turk.
 
 | Content Type | Description |
 | ------------- | ------------- |
