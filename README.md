@@ -1,14 +1,18 @@
 # ARL HuRDL Corpus 1.0.0
 
-ARL HuRDL (Human Robot Dialogue Learning) is a labeled corpus of 22 human-human dialogues in a situated reference resolution task. In the task, participants played the role of a robot and communicated with a live, remote experimenter (called the Commander) through text-based messaging. The experiment was conducted live on Amazon Mechanical Turk. 
+ARL HuRDL (Human Robot Dialogue Learning) is a labeled corpus of 22 human-human dialogues in a situated reference resolution task. In the task, participants played the role of a robot and communicated with a live, remote experimenter (called the Commander) through text-based messaging. The experiment was conducted live on Amazon Mechanical Turk.
 
-The latest version of the dataset can be found [here](https://github.com/USArmyResearchLab/ARL-HuRDL/tree/main/Data).     
-The corresponding video files can be found [here](http://doi.org/10.5061/dryad.7d7wm37v9).    
-The corresponding publication with detailed corpus statistics can be found [here](https://arxiv.org/abs/2106.06504).
+| Content Type | Description |
+| ------------- | ------------- |
+| [ARL HuRDL Corpus](https://github.com/USArmyResearchLab/ARL-HuRDL/tree/main/Data)  | CSV files with transcriptions and annotations  (including 720 questions)  |
+| [ARL HuRDL Videos](http://doi.org/10.5061/dryad.7d7wm37v9)  | Video recordings in Unity3D of all experiment trials  |
+| [ARL HuRDL Paper](https://aclanthology.org/2021.sigdial-1.37) | SIGdial 2021 paper with detailed corpus statistics |
+| [Video Presentation](https://www.youtube.com/watch?v=9IAwjDa0Wp0) | 13-minute presentation at SIGdial 2021 about ARL HuRDL Corpus|
 
 ## Table of Contents
 
 - [ARL HuRDL Corpus 1.0.0](#hurdl-corpus-1.0.0)
+  * [Citation](#citation)
   * [Interaction Snapshot](#interaction-snapshot)
   * [Data Structure](#data-structure)
   * [Task Domain](#task-domain)
@@ -18,15 +22,37 @@ The corresponding publication with detailed corpus statistics can be found [here
   * [Dialogue Annotation](#dialogue-annotation)
   * [License](#license)
 
+## Citation
+If you would like to publish experiments or analyses with the
+ARL-HuRDL corpus, please cite the following paper:
+- Felix Gervits, Antonio Roque, Gordon Briggs, Matthias Scheutz, and Matthew Marge. 2021. ["How Should Agents Ask Questions For Situated Learning? An Annotated Dialogue Corpus."](https://aclanthology.org/2021.sigdial-1.37) In *Proceedings of the 22nd Annual Meeting of the Special Interest Group on Discourse and Dialogue*, Singapore and Online: Association for Computational Linguistics, pp. 353-359.
+```
+@inproceedings{gervits-etal-2021-agents,
+    title = "How Should Agents Ask Questions For Situated Learning? An Annotated Dialogue Corpus",
+    author = "Gervits, Felix  and
+      Roque, Antonio  and
+      Briggs, Gordon  and
+      Scheutz, Matthias  and
+      Marge, Matthew",
+    booktitle = "Proceedings of the 22nd Annual Meeting of the Special Interest Group on Discourse and Dialogue",
+    month = jul,
+    year = "2021",
+    address = "Singapore and Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.sigdial-1.37",
+    pages = "353--359",
+}
+```
+
 ## Interaction Snapshot
 The image below shows the experimenter's (Commander) overhead view of the environment. The participant's (robot) position is shown, and the top right corner shows the participant's first-person view. A message box in the bottom left corner allows for back and forth communication.
 
 ![Commander View](Media/corpus_snapshot.png)
 
 ## Data Structure
-The dialogues are labeled with the participant ID number, an experimental condition (CI or RI), and a counterbalancing condition (A, B, or C), e.g., 02_CI-B. Note that participant IDs are not sequential because some data were excluded. See [below](#experimental-conditions) for more information about conditions and counterbalancing. 
+The dialogues are labeled with the participant ID number, an experimental condition (CI or RI), and a counterbalancing condition (A, B, or C), e.g., 02_CI-B. Note that participant IDs are not sequential because some data were excluded. See [below](#experimental-conditions) for more information about conditions and counterbalancing.
 
-Each dialogue is in CSV format with the following structure: 
+Each dialogue is in CSV format with the following structure:
 - *Condition*: experimental condition
 - *ID*: unique participant ID
 - *Time*: in each dialogue, 0 marks the introductory message from the Commander
@@ -35,33 +61,33 @@ Each dialogue is in CSV format with the following structure:
 - *Question Form*: form of the question (e.g., WHQ, YNQ, etc.)
 - *Question Type*: content of the question
 
-See [below](#dialogue-annotation) for more details on dialogue annotation. 
+See [below](#dialogue-annotation) for more details on dialogue annotation.
 
-Video files are also provided for each dialogue, which show the top-down Commander view and first-person participant view depicted in the [image](#interaction-snapshot) above. 
+Video files are also provided for each dialogue, which show the top-down Commander view and first-person participant view depicted in the [image](#interaction-snapshot) above.
 
 ## Task Domain
 The study was designed to investigate how robots can learn by clarifying uncertainty across multiple modalities in a task-based interaction. Since humans represent a good standard for effective question generation, the study involved human participants playing the role of a robot. The task domain was designed in such as way as to present participants with novel concepts and procedural knowledge that they had to learn in order to elicit a variety of question types.
 
-In the task, human participants played the role of a robot on a spacecraft. The goal was to organize a number of tools scattered around the spacecraft. A complete study run consisted of six *trials*, each one corresponding to a single tool being located and placed in the correct container. 
+In the task, human participants played the role of a robot on a spacecraft. The goal was to organize a number of tools scattered around the spacecraft. A complete study run consisted of six *trials*, each one corresponding to a single tool being located and placed in the correct container.
 
-Participants had a first-person view of the environment, along with an on-screen graphical user interface (GUI) that included a text box to communicate with the Commander and other task-relevant icons. Participants could move the robot using the arrow keys, and pick up / place objects by clicking on them. Only one object could be held at a time, and they could only be placed in designated containers. 
+Participants had a first-person view of the environment, along with an on-screen graphical user interface (GUI) that included a text box to communicate with the Commander and other task-relevant icons. Participants could move the robot using the arrow keys, and pick up / place objects by clicking on them. Only one object could be held at a time, and they could only be placed in designated containers.
 
 ## Task Stimuli
-The environment consisted of an open room with various containers, interfaces, objects, and landmarks. The environment also contained six *tool types*, with three *instances* of each type. The tool types were given nonsensical names such that the names could not be used solely to identify the objects. For example, the six tool types were called: *optimizer, calibrator, module, synthesizer, capacitor*, and *emitter*. The instances had an additional prefix added to this label, resulting in object names like *megaband module* and *temporal emitter*. Only six instances were task-relevant, so the remaining twelve were distractors. 
+The environment consisted of an open room with various containers, interfaces, objects, and landmarks. The environment also contained six *tool types*, with three *instances* of each type. The tool types were given nonsensical names such that the names could not be used solely to identify the objects. For example, the six tool types were called: *optimizer, calibrator, module, synthesizer, capacitor*, and *emitter*. The instances had an additional prefix added to this label, resulting in object names like *megaband module* and *temporal emitter*. Only six instances were task-relevant, so the remaining twelve were distractors.
 
 The tools were designed to be heterogeneous with respect to a number of features, including: **color** (red, yellow, blue, etc.), **shape** (short, tall, narrow, wide), **size** (small, medium, large), **texture** (wood, coarse, metal, smooth), **symbol** (x, +, -, etc. on the object), and **pattern** (striped, spotted, no pattern). Each tool type was designed to vary along three randomly-determined feature dimensions, which resulted in a total of 20 combinations of three-feature sets (6 choose 3).
 
 In addition to the tools, the environment also contained a number of *containers* and *interfaces*, which were used to open the containers. There were ten platforms, three lockers (each with two shelves - top / bottom), two cabinets (each with four shelves - A, B, C, D, corresponding to quadrants), and three crates. The lockers, cabinets, and crates were locked and required learning a procedure to open (e.g., entering a passcode, arranging keycards, and pressing buttons).
 
 ## Experimental Conditions
-Depending on the experimental condition, the Commander either took the initiative (*Commander-Initiative*; *CI*) and gave scripted instructions or only responded to questions (*Robot Initiative*; *RI*). In all conditions, the Commander followed a strict policy with their responses, generally only providing minimal information with each response. 
+Depending on the experimental condition, the Commander either took the initiative (*Commander-Initiative*; *CI*) and gave scripted instructions or only responded to questions (*Robot Initiative*; *RI*). In all conditions, the Commander followed a strict policy with their responses, generally only providing minimal information with each response.
 
-In the CI condition, the Commander provided each instruction (e.g., "The sonic optimizer goes in the secondary cabinet, shelf A"), whereas in the RI condition, the participant had to establish which tools and locations were relevant. To control for order and sequence effects, the order of instructions was counterbalanced using a Latin-square design based on the initial location of the tools - leading to three conditions. Participants in the RI condition were also assigned to a counterbalancing condition, but this instruction order was not enforced as participants controlled the flow of the dialogue. 
+In the CI condition, the Commander provided each instruction (e.g., "The sonic optimizer goes in the secondary cabinet, shelf A"), whereas in the RI condition, the participant had to establish which tools and locations were relevant. To control for order and sequence effects, the order of instructions was counterbalanced using a Latin-square design based on the initial location of the tools - leading to three conditions. Participants in the RI condition were also assigned to a counterbalancing condition, but this instruction order was not enforced as participants controlled the flow of the dialogue.
 
 *Instruction granularity* was manipulated as a within-subjects factor such that every participant in the CI condition receiving an equal number of high- and low-level trials in different orders. High-level instructions represent plan specifications, e.g., "The tesla capacitor goes in the secondary cabinet, shelf B". Low-level instructions represent the same plan, but broken down into constituent commands, e.g., "Move to the primary cabinet" -> "Pick up the tesla capacitor from shelf A" -> "Move to the secondary cabinet" -> "Place the tesla capacitor on shelf B". The particular trials of each type were counterbalanced in a similar manner as the instructions.
 
 ## Commander Script
-The following script was used to set the order of instructions in the CI condition. Included here are both high- and low-level instructions, but only half of each were used, and their order varied depending on the counterbalancing condition. 
+The following script was used to set the order of instructions in the CI condition. Included here are both high- and low-level instructions, but only half of each were used, and their order varied depending on the counterbalancing condition.
 
 1. **High**: The sonic optimizer goes in the secondary cabinet, shelf A    
    **Low**:
@@ -152,7 +178,7 @@ To label the utterances, the following procedure was used:
 			- **Texture**: "what texture is it?"
 			- **Comparison**: "does it look like anything else?"
 			- **Other**
-		- **Request Teaching**: (asking about how to do things / procedural knowledge) 
+		- **Request Teaching**: (asking about how to do things / procedural knowledge)
 			- **General**: "How do I open lockers?"
 			- **Target**: "what's the code for crate 3?"
 		- **Goal-Related**: (asking about steps of the task, or what the goal is) "what’s next?", "what do I do after that?", "What do you want me to do with the tesla capacitor?"
@@ -169,9 +195,8 @@ To label the utterances, the following procedure was used:
 - P: is it gray? \[*YNQ: Confirm Object by Feature: Color*]
 - P: is it in the main cabinet? \[*YNQ: Confirm Object by Location: Landmark*]
 - P: is the temporal emitter big or small \[*AQ: Confirm Object by Feature: Size*]
-- P: shelf D i assume is the bottom right one \[*Statement: Confirm Object by Location: Spatial*] 
+- P: shelf D i assume is the bottom right one \[*Statement: Confirm Object by Location: Spatial*]
 
 
 ## License
 ARL HuRDL Corpus is licensed under the Creative Commons Zero 1.0 Universal (CC0 1.0) license. Please see LICENSE.txt for details.
-
