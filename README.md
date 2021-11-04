@@ -24,7 +24,7 @@ ARL HuRDL (Human Robot Dialogue Learning) is a labeled corpus of 22 human-human 
 
 ## Citation
 If you would like to publish experiments or analyses with the
-ARL-HuRDL corpus, please cite the following paper:
+ARL HuRDL corpus, please cite the following paper:
 - Felix Gervits, Antonio Roque, Gordon Briggs, Matthias Scheutz, and Matthew Marge. 2021. ["How Should Agents Ask Questions For Situated Learning? An Annotated Dialogue Corpus."](https://aclanthology.org/2021.sigdial-1.37) In *Proceedings of the 22nd Annual Meeting of the Special Interest Group on Discourse and Dialogue*, Singapore and Online: Association for Computational Linguistics, pp. 353-359.
 ```
 @inproceedings{gervits-etal-2021-agents,
