@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<BIF VERSION="0.3">
+   <NETWORK>
+      <VARIABLE TYPE="decision">
+         <NAME>AskQuestion</NAME>
+         <PROPERTY>Question</PROPERTY>
+         <OUTCOME>Query:ID</OUTCOME>
+         <OUTCOME>Query:General</OUTCOME>
+         <OUTCOME>Query:Pattern</OUTCOME>
+         <OUTCOME>Query:Symbol</OUTCOME>
+      </VARIABLE>
+      <VARIABLE TYPE="nature">
+         <NAME>Command</NAME>
+         <PROPERTY>Instruction</PROPERTY>
+         <OUTCOME>{'Referent': 'obj0', 'Type': 'Object'}</OUTCOME>
+         <OUTCOME>{'Referent': 'obj1', 'Type': 'Object'}</OUTCOME>
+         <OUTCOME>{'Referent': 'obj2', 'Type': 'Object'}</OUTCOME>
+         <OUTCOME>{'Referent': 'obj3', 'Type': 'Object'}</OUTCOME>
+         <OUTCOME>{'Referent': 'obj4', 'Type': 'Object'}</OUTCOME>
+         <OUTCOME>{'Referent': 'obj5', 'Type': 'Object'}</OUTCOME>
+         <OUTCOME>{'Referent': 'obj6', 'Type': 'Object'}</OUTCOME>
+         <OUTCOME>{'Referent': 'obj7', 'Type': 'Object'}</OUTCOME>
+         <OUTCOME>{'Referent': 'obj8', 'Type': 'Object'}</OUTCOME>
+         <OUTCOME>{'Referent': 'obj9', 'Type': 'Object'}</OUTCOME>
+         <OUTCOME>{'Referent': 'obj10', 'Type': 'Object'}</OUTCOME>
+         <OUTCOME>{'Referent': 'obj11', 'Type': 'Object'}</OUTCOME>
+         <OUTCOME>{'Referent': 'obj12', 'Type': 'Object'}</OUTCOME>
+         <OUTCOME>{'Referent': 'obj13', 'Type': 'Object'}</OUTCOME>
+         <OUTCOME>{'Referent': 'obj14', 'Type': 'Object'}</OUTCOME>
+         <OUTCOME>{'Referent': 'obj15', 'Type': 'Object'}</OUTCOME>
+         <OUTCOME>{'Referent': 'obj16', 'Type': 'Object'}</OUTCOME>
+         <OUTCOME>{'Referent': 'obj17', 'Type': 'Object'}</OUTCOME>
+         <OUTCOME>{'Referent': 'obj18', 'Type': 'Object'}</OUTCOME>
+         <OUTCOME>{'Referent': 'obj19', 'Type': 'Object'}</OUTCOME>
+      </VARIABLE>
+      <VARIABLE TYPE="utility">
+         <NAME>Ask</NAME>
+         <PROPERTY>Utility of AskQuestion</PROPERTY>
+         <OUTCOME>0</OUTCOME>
+      </VARIABLE>
+      <VARIABLE TYPE="nature">
+         <NAME>Refs</NAME>
+         <PROPERTY>Possible referents</PROPERTY>
+         <OUTCOME>2</OUTCOME>
+         <OUTCOME>3</OUTCOME>
+      </VARIABLE>
+      <VARIABLE TYPE="nature">
+         <NAME>Symbol</NAME>
+         <PROPERTY>Symbol</PROPERTY>
+         <OUTCOME>Known</OUTCOME>
+         <OUTCOME>Unknown</OUTCOME>
+      </VARIABLE>
+      <VARIABLE TYPE="nature">
+         <NAME>ObjectType</NAME>
+         <PROPERTY>ObjectType</PROPERTY>
+         <OUTCOME>Known</OUTCOME>
+         <OUTCOME>Unknown</OUTCOME>
+      </VARIABLE>
+      <VARIABLE TYPE="nature">
+         <NAME>Pattern</NAME>
+         <PROPERTY>Pattern</PROPERTY>
+         <OUTCOME>Known</OUTCOME>
+         <OUTCOME>Unknown</OUTCOME>
+      </VARIABLE>
+      <DEFINITION>
+         <FOR>Command</FOR>
+         <TABLE>0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 0.05 </TABLE>
+      </DEFINITION>
+      <DEFINITION>
+         <FOR>AskQuestion</FOR>
+      </DEFINITION>
+      <DEFINITION>
+         <FOR>Refs</FOR>
+         <TABLE>0.5 0.5 </TABLE>
+      </DEFINITION>
+      <DEFINITION>
+         <FOR>Symbol</FOR>
+         <TABLE>0.5 0.5 </TABLE>
+      </DEFINITION>
+      <DEFINITION>
+         <FOR>ObjectType</FOR>
+         <TABLE>0.5 0.5 </TABLE>
+      </DEFINITION>
+      <DEFINITION>
+         <FOR>Pattern</FOR>
+         <TABLE>0.5 0.5 </TABLE>
+      </DEFINITION>
+      <DEFINITION>
+         <FOR>Ask</FOR>
+         <GIVEN>AskQuestion</GIVEN>
+         <GIVEN>Refs</GIVEN>
+         <GIVEN>Symbol</GIVEN>
+         <GIVEN>ObjectType</GIVEN>
+         <GIVEN>Pattern</GIVEN>
+         <TABLE>0 0 12.60514457719884 12.60514457719884 0 0 12.60514457719884 12.60514457719884 0 0 12.60514457719884 12.60514457719884 0 0 12.60514457719884 12.60514457719884 0 0 12.60514457719884 12.60514457719884 0 0 12.60514457719884 12.60514457719884 0 0 12.60514457719884 12.60514457719884 0 0 12.60514457719884 12.60514457719884 0 9.604839032267455 0 9.604839032267455 0 9.604839032267455 0 9.604839032267455 0 9.604839032267455 0 9.604839032267455 0 9.604839032267455 0 9.604839032267455 0 0 0 0 7.869764105996631 7.869764105996631 7.869764105996631 7.869764105996631 0 0 0 0 7.869764105996631 7.869764105996631 7.869764105996631 7.869764105996631 </TABLE>
+      </DEFINITION>
+   </NETWORK>
+</BIF>

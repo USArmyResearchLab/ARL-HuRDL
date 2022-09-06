@@ -1,0 +1,21 @@
+EntityType,EntityID,Name,ObjectType,Color,Size,Shape,Symbol,Pattern,Texture,Location,Coord.X,Coord.Y,ContainedIn,AgentStartingLocation?
+Object,calib1,Cryo calibrator,Calibrator,Yellow,Small,Long,None,None,Metal,-,5,9,-,0
+Object,calib2,Delta calibrator,Calibrator,Green,Small,Tall,None,None,Coarse,-,5,9,-,0
+Object,calib3,Mechano calibrator,Calibrator,Blue,Small,Short,None,None,Wood,-,9,4,-,0
+Object,emmit1,Temporal emitter,Emitter,Red,Small,Standard,Circle,None,Metal,-,5,1,-,0
+Object,emmit2,Organic emitter,Emitter,Red,Large,Standard,X,None,Coarse,-,5,1,-,0
+Object,emmit3,Plasma emitter,Emitter,Red,Medium,Standard,Square,None,Wood,-,6,9,-,0
+Object,capac1,Electro capacitor,Capacitor,White,Small,Standard,None,Striped,Smooth,-,9,6,-,0
+Object,capac2,Adaptive capacitor,Capacitor,Purple,Medium,Standard,None,Spotted,Smooth,-,1,5,-,0
+Object,capac3,Tesla capacitor,Capacitor,Green,Large,Standard,None,None,Smooth,-,5,1,-,0
+Object,mod1,Megaband module,Module,Black,Medium,Narrow,Square,Striped,Smooth,-,2,1,-,0
+Object,mod2,Hyperband module,Module,Black,Medium,Wide,Circle,Spotted,Smooth,-,1,5,-,0
+Object,mod3,Ultraband module,Module,Black,Medium,Tall,Triangle,None,Smooth,-,2,1,-,0
+Object,synth1,Modular synthesizer,Synthesizer,Red,Small,Narrow,None,None,Smooth,-,7,9,-,0
+Object,synth2,Optimized synthesizer,Synthesizer,Blue,Medium,Wide,None,None,Smooth,-,1,8,-,0
+Object,synth3,Galvanic synthesizer,Synthesizer,Yellow,Large,Tall,None,None,Smooth,-,1,8,-,0
+Object,opt1,Sonic optimizer,Optimizer,Grey,Large,Standard,Plus,Striped,Coarse,-,9,5,-,0
+Object,opt2,Advanced optimizer,Optimizer,Grey,Large,Standard,Minus,Spotted,Smooth,-,1,5,-,0
+Object,opt3,Quantum optimizer,Optimizer,Grey,Large,Standard,Circle,None,Wood,-,2,1,-,0
+Object,crate1,Crate 1,Crate,Black,Large,Standard,Square,Striped,Smooth,-,7,8,-,0
+Object,crate2,Crate 2,Crate,Grey,Large,Standard,Triangle,None,Smooth,-,7,8,-,1

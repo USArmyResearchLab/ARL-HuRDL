@@ -1,0 +1,21 @@
+EntityType,EntityID,Name,ObjectType,Color,Size,Shape,Symbol,Pattern,Texture,Location,Coord.X,Coord.Y,ContainedIn,AgentStartingLocation?
+Object,calib1,Cryo calibrator,o1,c1,si1,sh1,sy1,p1,t1,-,5,9,-,0
+Object,calib2,Delta calibrator,o2,c2,si2,sh2,sy2,p2,t2,-,5,9,-,0
+Object,calib3,Mechano calibrator,o3,c3,si3,sh3,sy3,p3,t3,-,9,4,-,0
+Object,emmit1,Temporal emitter,o4,c4,si4,sh4,sy4,p4,t4,-,5,1,-,0
+Object,emmit2,Organic emitter,o5,c5,si5,sh5,sy5,p5,t5,-,5,1,-,0
+Object,emmit3,Plasma emitter,o6,c6,si6,sh6,sy6,p6,t6,-,6,9,-,0
+Object,capac1,Electro capacitor,o7,c7,si7,sh7,sy7,p7,t7,-,9,6,-,0
+Object,capac2,Adaptive capacitor,o7,c7,si7,sh7,sy7,p7,t7,-,1,5,-,0
+Object,capac3,Tesla capacitor,o7,c7,si7,sh7,sy7,p7,t7,-,5,1,-,0
+Object,mod1,Megaband module,o7,c7,si7,sh7,sy7,p7,t7,-,2,1,-,0
+Object,mod2,Hyperband module,o7,c7,si7,sh7,sy7,p7,t7,-,1,5,-,0
+Object,mod3,Ultraband module,o7,c7,si7,sh7,sy7,p7,t7,-,2,1,-,0
+Object,synth1,Modular synthesizer,o7,c7,si7,sh7,sy7,p7,t7,-,7,9,-,0
+Object,synth2,Optimized synthesizer,o7,c7,si7,sh7,sy7,p7,t7,-,1,8,-,0
+Object,synth3,Galvanic synthesizer,o7,c7,si7,sh7,sy7,p7,t7,-,1,8,-,0
+Object,opt1,Sonic optimizer,o7,c7,si7,sh7,sy7,p7,t7,-,9,5,-,0
+Object,opt2,Advanced optimizer,o7,c7,si7,sh7,sy7,p7,t7,-,1,5,-,0
+Object,opt3,Quantum optimizer,o7,c7,si7,sh7,sy7,p7,t7,-,2,1,-,0
+Object,crate1,Crate 1,o7,c7,si7,sh7,sy7,p7,t7,-,7,8,-,0
+Object,crate2,Crate 2,o7,c7,si7,sh7,sy7,p7,t7,-,7,8,-,1
