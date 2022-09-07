@@ -15,7 +15,7 @@ ARL HuRDL (Human Robot Dialogue Learning) is a labeled corpus of 22 human-human 
 ## Table of Contents
 
 - [ARL HuRDL Corpus 1.0.0](#hurdl-corpus-1.0.0)
-  * [Citation](#citation-1)
+  * [SIGDial Citation](#sigdial-citation)
   * [Interaction Snapshot](#interaction-snapshot)
   * [Data Structure](#data-structure)
   * [Task Domain](#task-domain)
@@ -24,13 +24,13 @@ ARL HuRDL (Human Robot Dialogue Learning) is a labeled corpus of 22 human-human 
   * [Commander Script](#commander-script)
   * [Dialogue Annotation](#dialogue-annotation)
 - [Decision Network Model 1.0.0](#decision-network-model-1.0.0)
-  * [Citation](#citation-2)
+  * [ICMI Citation](#icmi-citation)
   * [Dependencies](#dependencies)
   * [Code](#code)
   * [Evaluation](#evaluation)
   * [License](#license)
 
-## Citation
+## SIGDial Citation
 If you would like to publish experiments or analyses with the
 ARL HuRDL corpus, please cite the following paper:
 - Felix Gervits, Antonio Roque, Gordon Briggs, Matthias Scheutz, and Matthew Marge. 2021. ["How Should Agents Ask Questions For Situated Learning? An Annotated Dialogue Corpus."](https://aclanthology.org/2021.sigdial-1.37) In *Proceedings of the 22nd Annual Meeting of the Special Interest Group on Discourse and Dialogue*, Singapore and Online: Association for Computational Linguistics, pp. 353-359.
@@ -209,10 +209,10 @@ To label the utterances, the following procedure was used:
 # Decision Network Model 1.0.0
 Based on analysis of the ARL HuRDL corpus, we developed a computational model of dialogue-based reference resolution. The model uses a decision network to represent an agent's world knowledge, which serves as the basis for generating questions to learn ambiguous referents. The model maximizes expected utility in terms of which question to ask, and uses an information-theoretic approach to set the utilities. See the ICMI 2021 [paper](https://dl.acm.org/doi/abs/10.1145/3462244.3479925) for more details. 
 
-The [/code](https://github.com/USArmyResearchLab/ARL-HuRDL/tree/main/Decision_network/code) directory contains the primary code for initializing the decision network using the pyAgrum library, and for computing the best question given a dictionary of evidence. [/evaluation](https://github.com/USArmyResearchLab/ARL-HuRDL/tree/main/Decision_network/evaluation) contains several test worlds that were used to evaluate the model in the ICMI 2021 paper. 
+The [/code](https://github.com/USArmyResearchLab/ARL-HuRDL/tree/main/Decision_Network/code) directory contains the primary code for initializing the decision network using the pyAgrum library, and for computing the best question given a dictionary of evidence. [/evaluation](https://github.com/USArmyResearchLab/ARL-HuRDL/tree/main/Decision_Network/evaluation) contains several test worlds that were used to evaluate the model in the ICMI 2021 paper. 
 
 
-## Citation
+## ICMI Citation
 If you would like to use or reference the decision network model, please cite the following paper:
 - Felix Gervits, Gordon Briggs, Antonio Roque, Genki Kadomatsu, Dean Thurston, Matthias Scheutz, & Matthew Marge. 2021. ["Decision-Theoretic Question Generation for Situated Reference Resolution: An Empirical Study and Computational Model"](https://dl.acm.org/doi/abs/10.1145/3462244.3479925). In *Proceedings of the 2021 International Conference on Multimodal Interaction*, pp. 150-158.
 
@@ -250,7 +250,7 @@ To run the decision network, Python 3 must be installed on the host machine, sin
 - [*code/luci.py*](https://github.com/USArmyResearchLab/ARL-HuRDL/tree/main/Decision_Network/code/luci.py)
 	- contains most of the auxiliary methods, including belief state, entities, and utterances.
 
-- [*code/decision_net.py*]((https://github.com/USArmyResearchLab/ARL-HuRDL/tree/main/Decision_Network/code/decision_net.py))
+- [*code/decision_net.py*](https://github.com/USArmyResearchLab/ARL-HuRDL/tree/main/Decision_Network/code/decision_net.py)
 	- Main interface to PyAgrum, with methods to initialize, reset, and update the network as well as get the best question. 
 
 - [*code/randomize_world.py*](https://github.com/USArmyResearchLab/ARL-HuRDL/tree/main/Decision_Network/code/randomize_world.py)
@@ -267,12 +267,12 @@ To run the decision network, Python 3 must be installed on the host machine, sin
 
 - [*evaluation/TestWorld_eval_uniform.csv*](https://github.com/USArmyResearchLab/ARL-HuRDL/tree/main/Decision_Network/evaluation/TestWorld_eval_uniform.csv) which is the random domain with uniform number of values for each property
 
-- [*evaluation/UtilityTable.xlsx*](https://github.com/USArmyResearchLab/ARL-HuRDL/tree/main/Decision_Network/evaluation/UtilityTable.xlsx) is generated each run. This is optional, but since it creates the table, we print to file for debugging. Utilities for random worlds are obtained from [*code/UtilityCalculation.py*](https://github.com/USArmyResearchLab/ARL-HuRDL/tree/main/Decision_Network/evaluation/UtilityCalculation.py), and they are hard-coded for the Spacecraft environment based on the data.
+- [*evaluation/UtilityTable.xlsx*](https://github.com/USArmyResearchLab/ARL-HuRDL/tree/main/Decision_Network/evaluation/UtilityTable.xlsx) is generated each run. This is optional, but since it creates the table, we print to file for debugging. Utilities for random worlds are obtained from [*code/UtilityCalculation.py*](https://github.com/USArmyResearchLab/ARL-HuRDL/tree/main/Decision_Network/code/UtilityCalculation.py), and they are hard-coded for the Spacecraft environment based on the data.
 
 - [*evaluation/decNet1.bifxml*](https://github.com/USArmyResearchLab/ARL-HuRDL/tree/main/Decision_Network/evaluation/decNet1.bifxml) is the decision net that is generated each iteration from the input. 
 
 ## License
 
-ARL HuRDL Corpus and Decision Network Model 1 are licensed under the Creative Commons Zero 1.0 Universal (CC0 1.0) license. Please see LICENSE.txt for details.
+ARL HuRDL Corpus 1.0.0 and Decision Network Model 1.0.0 are licensed under the Creative Commons Zero 1.0 Universal (CC0 1.0) license. Please see LICENSE.txt for details.
 
 
