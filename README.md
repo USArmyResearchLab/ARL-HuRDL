@@ -7,23 +7,15 @@ ARL HuRDL (Human Robot Dialogue Learning) is a labeled corpus of 22 human-human 
 | [ARL HuRDL Corpus](https://github.com/USArmyResearchLab/ARL-HuRDL/tree/main/Data)  | CSV files with transcriptions and annotations  (including 720 questions)  |
 | [ARL HuRDL Videos](http://doi.org/10.5061/dryad.7d7wm37v9)  | Video recordings in Unity3D of all experiment trials  |
 | [ARL HuRDL Paper](https://aclanthology.org/2021.sigdial-1.37) | SIGdial 2021 paper with detailed corpus statistics |
-<<<<<<< HEAD
 | [Video Presentation](https://www.youtube.com/watch?v=9IAwjDa0Wp0) | 13-minute presentation at SIGdial 2021 about ARL HuRDL Corpus |
 | [Decision Network Paper](https://dl.acm.org/doi/abs/10.1145/3462244.3479925) | ICMI 2021 paper presenting decision network model and evaluation |
 | [Decision Network Integration Paper](Media/sigdial2022demo.pdf) | Sigdial 2022 demonstration paper presenting an integrated system running the decision network in the DIARC cognitive robotic architecture |
 | [Decision Network Code](https://github.com/USArmyResearchLab/ARL-HuRDL/tree/main/Decision_Network) | Python code for the decision network model|
-=======
-| [Video Presentation](https://www.youtube.com/watch?v=9IAwjDa0Wp0) | 13-minute presentation at SIGdial 2021 about ARL HuRDL Corpus|
->>>>>>> 0902f16e525fdaf717520172bb099319c0d1e447
 
 ## Table of Contents
 
 - [ARL HuRDL Corpus 1.0.0](#hurdl-corpus-1.0.0)
-<<<<<<< HEAD
   * [Citation](#citation-1)
-=======
-  * [Citation](#citation)
->>>>>>> 0902f16e525fdaf717520172bb099319c0d1e447
   * [Interaction Snapshot](#interaction-snapshot)
   * [Data Structure](#data-structure)
   * [Task Domain](#task-domain)
@@ -212,7 +204,6 @@ To label the utterances, the following procedure was used:
 - P: is it in the main cabinet? \[*YNQ: Confirm Object by Location: Landmark*]
 - P: is the temporal emitter big or small \[*AQ: Confirm Object by Feature: Size*]
 - P: shelf D i assume is the bottom right one \[*Statement: Confirm Object by Location: Spatial*]
-<<<<<<< HEAD
 
 
 # Decision Network Model 1.0.0
@@ -258,8 +249,6 @@ To run the decision network, Python 3 must be installed on the host machine, sin
 
 - [*code/luci.py*](https://github.com/USArmyResearchLab/ARL-HuRDL/tree/main/Decision_Network/code/luci.py)
 	- contains most of the auxiliary methods, including belief state, entities, and utterances.
-=======
->>>>>>> 0902f16e525fdaf717520172bb099319c0d1e447
 
 - [*code/decision_net.py*]((https://github.com/USArmyResearchLab/ARL-HuRDL/tree/main/Decision_Network/code/decision_net.py))
 	- Main interface to PyAgrum, with methods to initialize, reset, and update the network as well as get the best question. 
@@ -283,11 +272,7 @@ To run the decision network, Python 3 must be installed on the host machine, sin
 - [*evaluation/decNet1.bifxml*](https://github.com/USArmyResearchLab/ARL-HuRDL/tree/main/Decision_Network/evaluation/decNet1.bifxml) is the decision net that is generated each iteration from the input. 
 
 ## License
-<<<<<<< HEAD
 
 ARL HuRDL Corpus and Decision Network Model 1 are licensed under the Creative Commons Zero 1.0 Universal (CC0 1.0) license. Please see LICENSE.txt for details.
 
 
-=======
-ARL HuRDL Corpus is licensed under the Creative Commons Zero 1.0 Universal (CC0 1.0) license. Please see LICENSE.txt for details.
->>>>>>> 0902f16e525fdaf717520172bb099319c0d1e447
